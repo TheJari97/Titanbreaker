@@ -52,19 +52,24 @@ window.RenderPaths = (function(){
     const rowHtml = rows.map((row, rowIndex) => {
       const available = availableForRow(tree, rowIndex);
       const next = isNextRow(tree, rowIndex);
-      return `<div class="path-row ${available?'available':''} ${next?'next':''} ${!available?'locked':''}">${row.map(renderTalentCard).join('')}</div>`;
+      const rowClass = available ? 'available' : (next ? 'next' : 'locked');
+      return `<div class="path-row ${rowClass}">${row.map(renderTalentCard).join('')}</div>`;
     }).join('');
     return `<section class="path-tree" style="--tree-bg:${TREE_BACKGROUNDS[tree]||TREE_BACKGROUNDS[1]}"><div class="tree-title">${TREE_NAMES[tree] || ('Tree ' + tree)}</div><div class="path-rows">${rowHtml}</div></section>`;
   }
 
   function bindHorizontalWheel(strip){
     if(!strip) return;
-    strip.addEventListener('wheel', event => {
+    const handler = event => {
+      if(!event.target.closest('#pathStrip')) return;
       if(Math.abs(event.deltaY) > Math.abs(event.deltaX)){
         strip.scrollLeft += event.deltaY;
         event.preventDefault();
+        event.stopPropagation();
       }
-    }, { passive:false });
+    };
+    strip.addEventListener('wheel', handler, { passive:false });
+    document.addEventListener('wheel', handler, { passive:false, capture:true });
   }
 
   function render(){
