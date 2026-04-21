@@ -1,0 +1,43 @@
+Titanbreaker Modular Project
+===========================
+
+HTML
+- index.html
+- items.html
+- crafts.html
+- runewords.html
+- pathtrees.html
+- heroes.html
+
+assets/data
+- items_data.js
+- runewords_data.js
+- talents_data.js
+- crafts_data.js
+- heroes_data.js
+- ui_data.js
+- guide_content.js
+- recipes_aliases.js
+- heroes_patch.js
+
+assets/js/core
+- utils.js
+- state.js
+- common.js
+
+assets/js/render
+- guide.js
+- items.js
+- crafts.js
+- runewords.js
+- pathtrees.js
+- heroes.js
+
+assets/css
+- base.css
+- items.css
+- crafts.css
+- runes.css
+- paths.css
+- heroes.css
+- guide.css

@@ -1,0 +1,56 @@
+Runewords placeholder icons generated locally
+=====================================
+
+The downloaded image package did not include most runeword icons.
+To keep the project 100% local and remove external URL dependencies, placeholder PNGs were generated for these files so every reference resolves correctly.
+
+You can replace any of these later by dropping a real image with the same filename into assets/images/runewords/.
+
+spellicons_145.png
+spellicons_146.png
+spellicons_147.png
+spellicons_148.png
+spellicons_152.png
+spellicons_154.png
+spellicons_155.png
+spellicons_156.png
+spellicons_158.png
+spellicons_159.png
+spellicons_161.png
+spellicons_162.png
+spellicons_ancient_apparition_ice_vortex.png
+spellicons_antimage_spell_shield.png
+spellicons_beastmaster_call_of_the_wild_boar.png
+spellicons_chaos_knight_phantasm.png
+spellicons_death_prophet_carrion_swarm.png
+spellicons_dragon_knight_dragon_blood.png
+spellicons_harpy_storm_chain_lightning.png
+spellicons_keeper_of_the_light_spirit_form.png
+spellicons_legion_commander_moment_of_courage.png
+spellicons_legion_commander_press_the_attack.png
+spellicons_leshrac_lightning_storm.png
+spellicons_lina_dragon_slave.png
+spellicons_lina_fiery_soul.png
+spellicons_lone_druid_spirit_bear.png
+spellicons_luna_eclipse.png
+spellicons_luna_lunar_blessing.png
+spellicons_lycan_howl.png
+spellicons_lycan_shapeshift.png
+spellicons_magnataur_skewer.png
+spellicons_medusa_split_shot.png
+spellicons_mirana_arrow.png
+spellicons_mirana_starfall.png
+spellicons_nevermore_requiem.png
+spellicons_oracle_purifying_flames.png
+spellicons_phantom_assassin_coup_de_grace.png
+spellicons_phantom_lancer_doppelwalk.png
+spellicons_phoenix_fire_spirits.png
+spellicons_pudge_flesh_heap.png
+spellicons_queenofpain_shadow_strike.png
+spellicons_skeleton_king_vampiric_aura.png
+spellicons_spectre_haunt.png
+spellicons_spirit_breaker_nether_strike.png
+spellicons_terrorblade_sunder.png
+spellicons_ursa_enrage.png
+spellicons_venomancer_poison_sting.png
+spellicons_visage_grave_chill.png

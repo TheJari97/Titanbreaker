@@ -1,0 +1,2 @@
+Guide content is also stored in assets/data/guide_content.js
+Sections: Community, Gameplay, Hero Statistics Information, Hero Attributes Information, Hero Class Information, Item Shop and Recipes.
