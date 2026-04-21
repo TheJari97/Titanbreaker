@@ -15,3 +15,7 @@ Proyecto dividido por páginas, datos, estilos y lógica.
 Edita primero los archivos de `assets/data/` si lo que quieres cambiar es contenido.
 Edita `assets/js/render/` solo si quieres cambiar comportamiento.
 Edita `assets/css/` solo si quieres cambiar diseño.
+
+
+## GitHub Pages image note
+This package was adjusted so the old Beget image URLs now use `https://` instead of `http://`. GitHub Pages serves over HTTPS, and browsers block insecure HTTP images as mixed content.
