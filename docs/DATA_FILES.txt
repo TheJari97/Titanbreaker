@@ -1,0 +1,6 @@
+- items_data.js: items base
+- crafts_data.js: recetas base
+- recipes_aliases.js: alias y recetas extra
+- heroes_data.js: heroes base
+- heroes_patch.js: Winter wizard y ajustes de Flame wizard
+- guide_content.js: contenido traducido de la guía

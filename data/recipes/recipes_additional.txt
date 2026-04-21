@@ -1,0 +1,213 @@
+Quickstriking Dagger + Gloves of Haste = Machete
+
+Ring of Protection + Cloak = Talisman of Liberation
+
+Talisman of Liberation + Ring of Health = Medaillon of Liberation
+
+Belt of Strength + Belt of Strength = Ice Crown
+
+Shivas Shared Cold + Ice Crown = Helm of the Ice King
+
+Tamer of Beasts + Steel Bite + Bow of the Eagle = Bracers of the Beast
+
+Claymore = Tamer of the Beasts
+
+Marching Drums of Bravery + Taskmaster's Presence = Overseer's Falconbow
+
+Ring of Life + Gloves of Haste = Taskmaster's Presence
+
+Mighty Reaver + Cleaver of Strength  = Pride of Valyria
+
+Hara-Kiri Mask + Manafusion Wand = Arcano Dagger
+
+Bronze Fortress + Luna's Blessing = Silvermoon Defender
+
+Mail Fortress = Bronze Fortress
+
+Ring of Life = Mail Fortress
+
+Stone of Life + Platemail + Chainmail = Shivas Shared Cold
+
+Glove of the Dreamer + Robe of the Magi = Gloves of the Templar
+
+Bracers of Frost + Mighty Reaver = Arctic Frost Shard
+
+Whistle of Kelthador + Sword of Vigor = Horn of Kelthador
+
+Commander Gloves + Mighty Reaver = Legionnaire's Edge
+
+Cataclysm Gloves + Robe of the Magi = Shadowflame Gloves
+
+Storm Flask + Spelldagger = Netherstorm Flask
+
+Bronze Fortress = Ice Spike Mail
+
+Barrier Gloves + Band of Elvenskin = Fairy Dust
+
+Gloves of the Forest + Lance of Steel = Book of the Jungle
+
+Holy Gloves + Battle Standard of Endurance = Paladin's Faceguard
+
+Shadow Gloves + Sword of Swiftness = Hand of Darkness
+
+Poison Rock + Band of Elvenskin = Viperstrike Gloves
+
+Hex Gloves + Ring of the Spirithawk = Spirit-Hex Gloves
+
+Sword of Swiftness + Iron Talon = Bloodfang
+
+Claws of Attack = Iron Talon
+
+Stone of Life + Cowl of Disguise + Cloak = Sacred Lotus
+
+Stormborn + Thunder's Rumble Mace = Fist of Thunder
+
+Spelldagger = Thunder's Rumble Mace
+
+Wings of Hell + Ashbringer Totemstaff = Wildfire Insanity
+
+The Angry Arcanist = Wings of Hell
+
+Ring of Life = Satan's Offering
+
+Ornament of Sacrifice + Robe of the Magi = Cloak of Escape
+
+The Angry Arcanist + Ring of Life = Ornament of Sacrifice
+
+The Angry Arcanist + Staff of Wizardy + Null Talisman = Holy Hammer
+
+Bow of the Eagle + Blade of Alacrity = Sniperhawk
+
+Cyclone's End + Tempest's End = Hurricane's End
+
+Doom of the Necropolis Hood + Doom of the Necropolis Robe + Doom of the Necropolis Gloves + Molten Steel = Doom of the Necropolis Set
+
+Swiftbite Hood + Swiftbite Treads + Swiftbite Gloves + Molten Steel = Swiftbite Set
+
+Crusader's Vengeance Helmet + Crusader's Vengeance Chestplate + Crusader's Vengeance Gloves + Molten Steel = Crusader's Vengeance Set
+
+Bloodswipe Helmet + Bloodswipe Chestplate + Bloodswipe Gloves + Molten Steel = Bloodswipe Set
+
+Battle Standar of Endurance + Winter Belt = Winterwolf Clan Standard
+
+Flameleader + Winterhide Wizar Cloak = Crowmaster
+
+Soulbrother Ring of Tears + Soulbrother Ring of Blood = Soulbrother Rings of Union
+
+The Angry Arcanist + Spelldagger = Darkforce, Caster of Shadows
+
+Azuresky Warglaive + Azuresky Warglaive = Azuresky Warglaive Set
+
+Runeforged Dragon Mask + Runeforged Dragon Shoulders + Runeforged Dragon Gloves + Molten Steel = Runeforged Dragon Set
+
+Skyborn Dragon Mask + Skyborn Dragon Chestguard + Skyborn Dragon Treads + Molten Steel = Skyborn Dragon Set
+
+Stoneskin Dragon Helmet + Stoneskin Dragon Chestguard + Stoneskin Dragon Bracers + Molten Steel = Stoneskin Dragon Set
+
+Broadsword = Mace of Thunder
+
+Hearth of Mercury + Blade of Alacrity = Demonglaive
+
+Demon Gloves + Lance of Steel = Demonslayer Gloves
+
+Machete = Catharsis
+
+Brutal Gladiator's Carver + Brutal Gladiator's Wall + Molten Steel = Brutal Gladiator's Set
+
+Bounty Hunter's Dagger + Bounty Hunter's Cape + Molten Steel = Bounty Hunter's Set
+
+Forbidden Mask + Forbidden Cape + Molten Steel = Forbidden Magic Set
+
+Immortal Witcher Hood + Immortal Witcher Shoulders + Immortal Witcher Bracers + Molten Steel = Immortal Witcher Set
+
+Immortal Colossus Helm + Immortal Colossus Belt + Immortal Colossus Bracers + Molten Steel = Immortal Colossus Set
+
+Immortal Ninja Helm + Immortal Ninja Belt + Immortal Ninja Shoulders + Molten Steel = Immortal Ninja Set
+
+Crusader's Vengeance Set + [Ancient] Temple Shard + Molten Steel = [Ancient] Dark Crusader's Vengeance Set
+
+[Ancient] Dark Crusader's Vengeance Set + [Mythical] Moonstone = Righteous Crusader's Vengeance Set
+
+[Ancient] Swiftstrike Set + [Mythical] Moonstone = Royal Murderer Set
+
+Swiftbite Set + [Ancient] Temple Shard + Molten Steel = [Ancient] Swiftstrike Set
+
+[Ancient] Doom of the Crypt Set + [Mythical] Moonstone = Naga Witch Set
+
+Doom of the Necropolis Set + [Ancient] Temple Shard + Molten Steel = [Ancient] Doom of the Crypt Set
+
+[Ancient] Godswipe Set + [Mythical] Moonstone = Sea Dragon Set
+
+Bloodswipe Set + [Ancient] Temple Shard + Molten Steel = [Ancient] Godswipe Set
+
+[Ancient] Crystalforged Dragon Set + [Mythical] Moonstone = Holy Cleric Set
+
+Runeforged Dragon Set + [Ancient] Temple Shard + Molten Steel = [Ancient] Crystalforged Dragon Set
+
+[Ancient] Skyfall Dragon Set + [Mythical] Moonstone = Master Rogue
+
+Skyborn Dragon Set + [Ancient] Temple Shard + Molten Steel = [Ancient] Skyfall Dragon Set
+
+[Ancient] Stonescale Dragon Set + [Mythical] Moonstone = Iron Guard Set
+
+Stoneskin Dragon Set + [Ancient] Temple Shard + Molten Steel = [Ancient] Stonescale Dragon Set
+
+[Ancient] Assassin's Set + [Mythical] Moonstone = [Mythical] Nightstalker Set
+
+Bounty Hunter's Set + [Ancient] Temple Shard + Molten Steel = [Ancient] Assassin's Set
+
+[Ancient] Savage Gladiator's Set + [Mythical] Moonstone = [Mythical] Kingsguard Set
+
+Brutal Gladiator's Set + [Ancient] Temple Shard + Molten Steel = [Ancient] Savage Gladiator's Set
+
+[Ancient] Forbidden Nether Set + [Mythical] Moonstone = [Mythical] Warmage Set
+
+Forbidden Magic Set + [Ancient] Temple Shard + Molten Steel = [Ancient] Forbidden Nether Set
+
+[Ancient] Immortal Occultist Set + [Mythical] Moonstone = [Mythical] Dark Priest Set
+
+Immortal Witcher Set + [Ancient] Temple Shard + Molten Steel = [Ancient] Immortal Occultist Set
+
+[Ancient] Immortal Cyclops Set + [Mythical] Moonstone = [Mythical] Iron Warden Set
+
+Immortal Colossus Set + [Ancient] Temple Shard + Molten Steel = [Ancient] Immortal Cyclops Set
+
+Immortal Ninja Set + [Ancient] Temple Shard + Molten Steel = [Ancient] Immortal Templar Set
+
+[Ancient] Immortal Templar Set + [Mythical] Moonstone = [Mythical] Dark Templar Set
+
+[Ancient] Azuresky Dragon Glaive Set + [Mythical] Moonstone = [Mythical] Demonfall Set
+
+Azuresky Warglaive Set + [Ancient] Temple Shard + Molten Steel = [Ancient] Azuresky Dragon Glaive Set
+
+[Ancient] Set of the Golden Lion + [Mythical] Titan Blood = [Mythical] Legion Breaker Set
+
+[Ancient] Monkey King Set + [Mythical] Titan Blood = [Mythical] Monkey Storm Set
+
+[Ancient] Cruel Warlord Set + [Mythical] Titan Blood = [Mythical] Cruel BloodWolf Set
+
+[Ancient] Sinister Warlock Set + [Mythical] Titan Blood = [Mythical] Shadow Demon Set
+
+[Ancient] Morass Guardian Set + [Mythical] Titan Blood = [Mythical] Dragon Guardian Set
+
+[Ancient] Jungle Warden Set + [Mythical] Titan Blood = [Mythical] Moon Light Set
+
+[Ancient] Voodoo Might Set + [Mythical] Titan Blood = [Mythical] Wild Grizzly Set
+
+[Ancient] Monkey King Bracers + [Ancient] Monkey King Shoulders + [Ancient] Monkey King Headdress + Molten Steel = [Ancient] Monkey King Set
+
+[Ancient] Cruel Warlord Mask + [Ancient] Cruel Warlord Shoulders + [Ancient] Cruel Warlord Axe + Molten Steel = [Ancient] Cruel Warlord Set
+
+[Ancient] Sinister Warlock Hood + [Ancient] Sinister Warlock Armor + [Ancient] Sinister Warlock Bracers + Molten Steel = [Ancient] Sinister Warlock Set
+
+[Ancient] Morass Guardian Headdress + [Ancient] Morass Guardian Belt + [Ancient] Morass Guardian Shoulders + Molten Steel = [Ancient] Morass Guardian Set
+
+[Ancient] Jungle Warden Headdress + [Ancient] Jungle Warden Shoulders + [Ancient] Jungle Warden Belt + Molten Steel = [Ancient] Jungle Warden Set
+
+[Ancient] Voodoo Might Bracers + [Ancient] Voodoo Might Shoulders + [Ancient] Voodoo Might Blade + Molten Steel = [Ancient] Voodoo Might Set
+
+[Divine] Cain's Family Armor + [Mythical] Titan Blood = Cain's Family Legacy
+
+Cain's Family Amulet + Cain's Family Treads + Cain's Family Bible + Molten Steel = [Divine] Cain's Family Armor
+
+[Ancient] Helm of the Golden Lion + [Ancient] Shoulders of the Golden Lion + [Ancient] Gloves of the Golden Lion + Molten Steel = [Ancient] Set of the Golden Lion
