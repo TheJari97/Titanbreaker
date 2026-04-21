@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Titanbreaker</title>
-  <link rel="icon" type="image/x-icon" href="http://n981185z.beget.tech/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="assets/images/ui/images_favicon.ico">
   <link rel="stylesheet" href="assets/css/base.css">
   <link rel="stylesheet" href="assets/css/items.css">
   <link rel="stylesheet" href="assets/css/crafts.css">
@@ -16,7 +16,7 @@
 <body data-page="items">
 <div class="page-shell">
   <aside class="sidebar">
-    <a href="index.html" class="logo"><img src="http://n981185z.beget.tech/images/logo.png" alt="Titanbreaker"></a>
+    <a href="index.html" class="logo"><img src="assets/images/ui/images_logo.png" alt="Titanbreaker"></a>
     <nav class="nav-menu">
       <a class="nav-link" data-page="guide" href="index.html"><span class="nav-icon">🏠</span><span>Guide</span></a>
       <a class="nav-link" data-page="items" href="items.html"><span class="nav-icon">📦</span><span>Items</span></a>
@@ -32,7 +32,7 @@
       <div class="top-actions">
         <button class="btn hidden" id="filtersBtn">Filters</button>
         <div id="searchWrap" class="hidden"><input id="topSearch" class="search-input" type="search" autocomplete="off"></div>
-        <select class="select" id="langSelect"><option value="en">🇺🇸 English</option><option value="es">🇪🇸 Español</option><option value="pt">🇵🇹 Português</option><option value="fr">🇫🇷 Français</option><option value="ru">🇷🇺 Русский</option><option value="ja">🇯🇵 日本語</option><option value="zh">🇨🇳 中文</option></select>
+        <select class="select" id="langSelect"><option value="en">🇬🇧 English</option><option value="es">🇪🇸 Español</option><option value="pt">🇵🇹 Português</option><option value="fr">🇫🇷 Français</option><option value="ru">🇷🇺 Русский</option><option value="ja">🇯🇵 日本語</option><option value="zh">🇨🇳 中文</option></select>
       </div>
     </div>
     <div id="pageRoot"></div>
@@ -48,8 +48,10 @@
 <script src="assets/data/guide_content.js"></script>
 <script src="assets/data/recipes_aliases.js"></script>
 <script src="assets/data/heroes_patch.js"></script>
+<script src="assets/js/core/lang_ext_patch.js"></script>
 <script src="assets/js/core/utils.js"></script>
 <script src="assets/js/core/state.js"></script>
+<script src="assets/js/core/text_patches.js"></script>
 <script src="assets/js/core/common.js"></script>
 <script src="assets/js/render/guide.js"></script>
 <script src="assets/js/render/items.js"></script>

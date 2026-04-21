@@ -1,8 +1,8 @@
 const RECIPE_ALIASES = {
   "Master Rogue": "Master Rogue Set",
   "Master Rogue Set": "Master Rogue Set",
-  "Cruel BloodWolf Set": "Cruel Bloodwolf Set",
-  "Cruel Bloodwolf Set": "Cruel Bloodwolf Set",
+  "Cruel BloodWolf Set": "[Mythical] Cruel Bloodwolf Set",
+  "Cruel Bloodwolf Set": "[Mythical] Cruel Bloodwolf Set",
   "Book of the Jungle": "The Jungle Book",
   "Hand of Darkness": "Hands of Darkness",
   "Tamer of the Beasts": "Tamer of Beasts",
