@@ -1,26 +1,8 @@
 window.RenderItems = (function(){
-  function buildCraftLinks(recipes){
-    const links = {};
-    recipes.forEach(recipe => {
-      const resultKey = AppUtils.normalizeKey(recipe.result);
-      if(!links[resultKey]) links[resultKey] = { crafted:false, formulas:[], creates:[] };
-      links[resultKey].crafted = true;
-      recipe.formulas.forEach(formula => {
-        const formulaText = formula.components.join(' + ');
-        if(!links[resultKey].formulas.includes(formulaText)) links[resultKey].formulas.push(formulaText);
-        formula.components.forEach(component => {
-          const key = AppUtils.normalizeKey(component);
-          if(!links[key]) links[key] = { crafted:false, formulas:[], creates:[] };
-          if(!links[key].creates.includes(recipe.result)) links[key].creates.push(recipe.result);
-        });
-      });
-    });
-    return links;
-  }
+  function craftLinks(){ return window.CRAFT_ITEM_LINKS || {}; }
 
   function itemTooltip(item){
-    const links = buildCraftLinks(window.AppRecipes || []);
-    const craft = links[AppUtils.normalizeKey(AppUtils.displayName(item))] || { crafted:false, formulas:[], creates:[] };
+    const craft = craftLinks()[AppUtils.normalizeKey(AppUtils.displayName(item))] || { crafted:false, formulas:[], creates:[] };
     let craftHtml = '';
     if(craft.crafted || craft.creates.length){
       craftHtml += '<div class="tooltip-body" style="margin-top:10px;border-top:1px solid rgba(255,255,255,.08);padding-top:10px">';
@@ -45,11 +27,14 @@ window.RenderItems = (function(){
     return ITEMS.filter(item => AppState.selectedRarities.has(item.rarity)).filter(item => AppUtils.searchMatch(item.searchText || AppUtils.displayName(item), AppState.itemSearch));
   }
 
+  function ensureCollapseState(rarity, collapsed){ AppState.itemCollapsed = AppState.itemCollapsed || {}; AppState.itemCollapsed[rarity]=collapsed; }
+  function isCollapsed(rarity){ AppState.itemCollapsed = AppState.itemCollapsed || {}; return !!AppState.itemCollapsed[rarity]; }
+
   function render(){
     const root = document.getElementById('pageRoot');
     const filtered = filteredItems();
     const groups = AppUtils.rarityOrder.map(rarity => ({ rarity, items: filtered.filter(item => item.rarity === rarity) })).filter(group => group.items.length);
-    root.innerHTML = `${renderFilters()}<div class="section-card"><div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap"><div class="count-badge">${filtered.length} items</div><div style="display:flex;gap:8px"><button class="btn" id="expandAllBtn">${AppUtils.t('expandAll')}</button><button class="btn" id="collapseAllBtn">${AppUtils.t('collapseAll')}</button></div></div>${groups.map(group => `<section class="item-group" data-group="${group.rarity}"><div class="item-group-head"><div class="count-badge">${AppUtils.rarityName(group.rarity)}</div><div style="display:flex;gap:10px;align-items:center"><div class="count-badge">${group.items.length} items</div><button class="btn group-toggle" data-group="${group.rarity}">–</button></div></div><div class="item-grid">${group.items.map(item => `<article class="item-card r${item.rarity} hover-item" data-code="${item.codename}"><div class="item-thumb"><img src="${item.image}" alt="${AppUtils.displayName(item)}"></div><div class="item-meta"><div class="item-name">${AppUtils.displayName(item)}</div><div class="item-tags"><span class="mini-badge">${AppUtils.rarityName(item.rarity)}</span></div></div></article>`).join('')}</div></section>`).join('')}</div>`;
+    root.innerHTML = `${renderFilters()}<div class="section-card"><div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap"><div class="count-badge">${filtered.length} items</div><div style="display:flex;gap:8px"><button class="btn" id="expandAllBtn">${AppUtils.t('expandAll')}</button><button class="btn" id="collapseAllBtn">${AppUtils.t('collapseAll')}</button></div></div>${groups.map(group => `<section class="item-group" data-group="${group.rarity}"><div class="item-group-head"><div class="count-badge">${AppUtils.rarityName(group.rarity)}</div><div style="display:flex;gap:10px;align-items:center"><div class="count-badge">${group.items.length} items</div><button class="btn group-toggle" data-group="${group.rarity}">${isCollapsed(group.rarity)?'+':'–'}</button></div></div><div class="item-grid ${isCollapsed(group.rarity)?'hidden':''}">${group.items.map(item => `<article class="item-card r${item.rarity} hover-item" data-code="${item.codename}"><div class="item-thumb"><img src="${item.image}" alt="${AppUtils.displayName(item)}"></div><div class="item-meta"><div class="item-name">${AppUtils.displayName(item)}</div><div class="item-tags"><span class="mini-badge">${AppUtils.rarityName(item.rarity)}</span></div></div></article>`).join('')}</div></section>`).join('')}</div>`;
 
     root.querySelectorAll('[data-rarity]').forEach(button => button.onclick = () => {
       const rarity = Number(button.dataset.rarity);
@@ -57,18 +42,20 @@ window.RenderItems = (function(){
       render();
     });
     root.querySelectorAll('.group-toggle').forEach(button => button.onclick = () => {
+      const rarity = button.dataset.group;
       const section = button.closest('.item-group');
       const grid = section.querySelector('.item-grid');
       const collapsed = grid.classList.toggle('hidden');
+      ensureCollapseState(rarity, collapsed);
       button.textContent = collapsed ? '+' : '–';
     });
-    document.getElementById('expandAllBtn').onclick = () => { root.querySelectorAll('.item-grid').forEach(grid => grid.classList.remove('hidden')); root.querySelectorAll('.group-toggle').forEach(button => button.textContent='–'); };
-    document.getElementById('collapseAllBtn').onclick = () => { root.querySelectorAll('.item-grid').forEach(grid => grid.classList.add('hidden')); root.querySelectorAll('.group-toggle').forEach(button => button.textContent='+'); };
+    document.getElementById('expandAllBtn').onclick = () => { root.querySelectorAll('.item-grid').forEach(grid => grid.classList.remove('hidden')); root.querySelectorAll('.group-toggle').forEach(button => {button.textContent='–'; ensureCollapseState(button.dataset.group,false);}); };
+    document.getElementById('collapseAllBtn').onclick = () => { root.querySelectorAll('.item-grid').forEach(grid => grid.classList.add('hidden')); root.querySelectorAll('.group-toggle').forEach(button => {button.textContent='+'; ensureCollapseState(button.dataset.group,true);}); };
     CommonUI.bindHover('.hover-item', element => {
       const item = ITEMS.find(entry => entry.codename === element.dataset.code);
       return itemTooltip(item);
     });
   }
 
-  return { render, toggleFilters(){ AppState.itemsFiltersOpen = !AppState.itemsFiltersOpen; render(); }, setSearch(value){ AppState.itemSearch = value; render(); } };
+  return { render, toggleFilters(){ AppState.itemsFiltersOpen = !AppState.itemsFiltersOpen; render(); }, setSearch(value){ AppState.itemSearch = value || ''; render(); } };
 })();

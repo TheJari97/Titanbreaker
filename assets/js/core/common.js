@@ -6,9 +6,8 @@ window.CommonUI = (function(){
   function hideTooltip(){ if(!tooltip) return; tooltip.classList.remove('show'); }
   function bindHover(selector, renderHtml){ document.querySelectorAll(selector).forEach(el=>{ el.addEventListener('mouseenter', e=>showTooltip(renderHtml(el), e)); el.addEventListener('mousemove', moveTooltip); el.addEventListener('mouseleave', hideTooltip); }); }
   function pageConfig(page){
-    const guideTitle = AppUtils.lang()==='es' ? 'Guía' : AppUtils.lang()==='pt' ? 'Guia' : 'Guide';
     return {
-      guide:{title:guideTitle, showSearch:false, showFilters:false},
+      guide:{title:AppUtils.t('guide'), showSearch:false, showFilters:false},
       items:{title:'Items', showSearch:true, showFilters:true},
       crafts:{title:AppUtils.t('crafts'), showSearch:true, showFilters:false},
       runewords:{title:'Runewords', showSearch:false, showFilters:false},
@@ -27,7 +26,7 @@ window.CommonUI = (function(){
       a.classList.toggle('active', a.dataset.page===page);
       const label=a.querySelector('span:last-child');
       if(label){
-        const map={guide:(AppUtils.lang()==='es'?'Guía':AppUtils.lang()==='pt'?'Guia':'Guide'),items:AppUtils.t('items'),runewords:AppUtils.t('runes'),crafts:AppUtils.t('crafts'),pathtrees:AppUtils.t('paths'),heroes:AppUtils.t('heroes')};
+        const map={guide:AppUtils.t('guide'),items:AppUtils.t('items'),runewords:AppUtils.t('runes'),crafts:AppUtils.t('crafts'),pathtrees:AppUtils.t('paths'),heroes:AppUtils.t('heroes')};
         label.textContent=map[a.dataset.page]||label.textContent;
       }
     });
