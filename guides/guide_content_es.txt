@@ -1,2 +1,0 @@
-El contenido de la guía también está en assets/data/guide_content.js
-Secciones: Comunidad, Jugabilidad, Información de estadísticas del héroe, Información de atributos del héroe, Información de clases del héroe, Tienda de objetos y recetas.
