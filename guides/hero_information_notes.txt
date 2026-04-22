@@ -1,2 +1,0 @@
-Heroes ready in current build: Jungle Ranger, Flame wizard, Winter wizard.
-Other heroes remain placeholders until their full data is added.
