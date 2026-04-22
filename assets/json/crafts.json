@@ -1,0 +1,3416 @@
+[
+  {
+    "result": "Runeforged Dragon Set",
+    "components": [
+      "Runeforged Dragon Mask",
+      "Runeforged Dragon Shoulders",
+      "Runeforged Dragon Gloves",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_int_t2_full.png",
+    "componentsData": [
+      {
+        "name": "Runeforged Dragon Mask",
+        "image": "assets/images/items/items_set_int_t2_1.png",
+        "rarity": 3
+      },
+      {
+        "name": "Runeforged Dragon Shoulders",
+        "image": "assets/images/items/items_set_int_t2_2.png",
+        "rarity": 3
+      },
+      {
+        "name": "Runeforged Dragon Gloves",
+        "image": "assets/images/items/items_set_int_t2_3.png",
+        "rarity": 3
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Doom of the Necropolis Set",
+    "components": [
+      "Doom of the Necropolis Hood",
+      "Doom of the Necropolis Robe",
+      "Doom of the Necropolis Gloves",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_int_dmg_full.png",
+    "componentsData": [
+      {
+        "name": "Doom of the Necropolis Hood",
+        "image": "assets/images/items/items_set_int_dmg_1.png",
+        "rarity": 3
+      },
+      {
+        "name": "Doom of the Necropolis Robe",
+        "image": "assets/images/items/items_set_int_dmg_2.png",
+        "rarity": 3
+      },
+      {
+        "name": "Doom of the Necropolis Gloves",
+        "image": "assets/images/items/items_set_int_dmg_3.png",
+        "rarity": 3
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Soulbrother Rings of Union",
+    "components": [
+      "Soulbrother Ring of Tears",
+      "Soulbrother Ring of Blood"
+    ],
+    "image": "assets/images/items/items_ring_arcane_full.png",
+    "componentsData": [
+      {
+        "name": "Soulbrother Ring of Tears",
+        "image": "assets/images/items/items_ring_arcane.png",
+        "rarity": 3
+      },
+      {
+        "name": "Soulbrother Ring of Blood",
+        "image": "assets/images/items/items_ring_arcane_2.png",
+        "rarity": 3
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Crusader's Vengeance Set",
+    "components": [
+      "Crusader's Vengeance Helmet",
+      "Crusader's Vengeance Chestplate",
+      "Crusader's Vengeance Gloves",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_str_dmg_full.png",
+    "componentsData": [
+      {
+        "name": "Crusader's Vengeance Helmet",
+        "image": "assets/images/items/items_set_str_dmg_1.png",
+        "rarity": 3
+      },
+      {
+        "name": "Crusader's Vengeance Chestplate",
+        "image": "assets/images/items/items_recipe.png",
+        "rarity": 0
+      },
+      {
+        "name": "Crusader's Vengeance Gloves",
+        "image": "assets/images/items/items_set_str_dmg_3.png",
+        "rarity": 3
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Shining Harmony",
+    "components": [
+      "The Angry Arcanist",
+      "Staff of Arcane Greed"
+    ],
+    "image": "assets/images/items/items_endgame12.png",
+    "componentsData": [
+      {
+        "name": "The Angry Arcanist",
+        "image": "assets/images/items/items_caster4.png",
+        "rarity": 1
+      },
+      {
+        "name": "Staff of Arcane Greed",
+        "image": "assets/images/items/items_caster1.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Lendário"
+  },
+  {
+    "result": "Shrine of Angels",
+    "components": [
+      "Shining Harmony",
+      "Book of Light"
+    ],
+    "image": "assets/images/items/items_angel.png",
+    "componentsData": [
+      {
+        "name": "Shining Harmony",
+        "image": "assets/images/items/items_endgame12.png",
+        "rarity": 3
+      },
+      {
+        "name": "Book of Light",
+        "image": "assets/images/items/items_libramoflight.png",
+        "rarity": 2
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Lendário"
+  },
+  {
+    "result": "Eternal Moonshine",
+    "components": [
+      "Manastaff of Renewal",
+      "Staff of Wizardry"
+    ],
+    "image": "assets/images/items/items_endgame13.png",
+    "componentsData": [
+      {
+        "name": "Manastaff of Renewal",
+        "image": "assets/images/items/items_caster2.png",
+        "rarity": 0
+      },
+      {
+        "name": "Staff of Wizardry",
+        "image": "assets/images/items/items_int3.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Lendário"
+  },
+  {
+    "result": "Soul Warden",
+    "components": [
+      "Eternal Moonshine",
+      "Soul Patron"
+    ],
+    "image": "assets/images/items/items_lifepatron.png",
+    "componentsData": [
+      {
+        "name": "Eternal Moonshine",
+        "image": "assets/images/items/items_endgame13.png",
+        "rarity": 3
+      },
+      {
+        "name": "Soul Patron",
+        "image": "assets/images/items/items_caster7.png",
+        "rarity": 2
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Lendário"
+  },
+  {
+    "result": "Arcane Stormfury",
+    "components": [
+      "Stormborn",
+      "Staff of Wizardry"
+    ],
+    "image": "assets/images/items/items_hasteproc.png",
+    "componentsData": [
+      {
+        "name": "Stormborn",
+        "image": "assets/images/items/items_weapon20.png",
+        "rarity": 1
+      },
+      {
+        "name": "Staff of Wizardry",
+        "image": "assets/images/items/items_int3.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Lendário"
+  },
+  {
+    "result": "Amulet of Elements",
+    "components": [
+      "Staff of Wizardry"
+    ],
+    "image": "assets/images/items/items_elements.png",
+    "componentsData": [
+      {
+        "name": "Staff of Wizardry",
+        "image": "assets/images/items/items_int3.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Épico"
+  },
+  {
+    "result": "Cryptic Spellblade",
+    "components": [
+      "Spelldagger",
+      "Spelldagger"
+    ],
+    "image": "assets/images/items/items_endgame4.png",
+    "componentsData": [
+      {
+        "name": "Spelldagger",
+        "image": "assets/images/items/items_caster5.png",
+        "rarity": 1
+      },
+      {
+        "name": "Spelldagger",
+        "image": "assets/images/items/items_caster5.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Lendário"
+  },
+  {
+    "result": "Ring of Elements",
+    "components": [
+      "Amulet of Elements",
+      "Cryptic Spellblade"
+    ],
+    "image": "assets/images/items/items_elements2.png",
+    "componentsData": [
+      {
+        "name": "Amulet of Elements",
+        "image": "assets/images/items/items_elements.png",
+        "rarity": 2
+      },
+      {
+        "name": "Cryptic Spellblade",
+        "image": "assets/images/items/items_endgame4.png",
+        "rarity": 3
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Lendário"
+  },
+  {
+    "result": "Heartgore",
+    "components": [
+      "Bloodmask",
+      "Lance of Steel"
+    ],
+    "image": "assets/images/items/items_crit_pure_2.png",
+    "componentsData": [
+      {
+        "name": "Bloodmask",
+        "image": "assets/images/items/items_lifesteal2.png",
+        "rarity": 1
+      },
+      {
+        "name": "Lance of Steel",
+        "image": "assets/images/items/items_crit_pure.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Épico"
+  },
+  {
+    "result": "Runeblade",
+    "components": [
+      "Rich Man's Chestguard"
+    ],
+    "image": "assets/images/items/items_allstats4.png",
+    "componentsData": [
+      {
+        "name": "Rich Man's Chestguard",
+        "image": "assets/images/items/items_allstats3.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Épico"
+  },
+  {
+    "result": "The Great Zweihander",
+    "components": [
+      "Cleaver of Strength",
+      "Cleaver of Strength"
+    ],
+    "image": "assets/images/items/items_weapon5.png",
+    "componentsData": [
+      {
+        "name": "Cleaver of Strength",
+        "image": "assets/images/items/items_str3.png",
+        "rarity": 0
+      },
+      {
+        "name": "Cleaver of Strength",
+        "image": "assets/images/items/items_str3.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Épico"
+  },
+  {
+    "result": "Ragebite",
+    "components": [
+      "Belt of Strength",
+      "Mighty Reaver"
+    ],
+    "image": "assets/images/items/items_weapon7up.png",
+    "componentsData": [
+      {
+        "name": "Belt of Strength",
+        "image": "assets/images/items/items_str2.png",
+        "rarity": 0
+      },
+      {
+        "name": "Mighty Reaver",
+        "image": "assets/images/items/items_weapon7.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Épico"
+  },
+  {
+    "result": "Luna's Blessing",
+    "components": [
+      "Moonshield"
+    ],
+    "image": "assets/images/items/items_shieldluna.png",
+    "componentsData": [
+      {
+        "name": "Moonshield",
+        "image": "assets/images/items/items_shield10.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Épico"
+  },
+  {
+    "result": "Ring of Nobility",
+    "components": [
+      "Circlet of Nobility",
+      "Mantle of Intelligence"
+    ],
+    "image": "assets/images/items/items_allrecipe.png",
+    "componentsData": [
+      {
+        "name": "Circlet of Nobility",
+        "image": "assets/images/items/items_all1.png",
+        "rarity": 0
+      },
+      {
+        "name": "Mantle of Intelligence",
+        "image": "assets/images/items/items_int1.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 0,
+    "rarityEn": "Common",
+    "rarityEs": "Común",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Kingslayer",
+    "components": [
+      "Gauntlets of Strength",
+      "Belt of Strength"
+    ],
+    "image": "assets/images/items/items_weapon9.png",
+    "componentsData": [
+      {
+        "name": "Gauntlets of Strength",
+        "image": "assets/images/items/items_str1.png",
+        "rarity": 0
+      },
+      {
+        "name": "Belt of Strength",
+        "image": "assets/images/items/items_str2.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 1,
+    "rarityEn": "Rare",
+    "rarityEs": "Raro",
+    "rarityPt": "Raro"
+  },
+  {
+    "result": "Enchanted Leather Cloak",
+    "components": [
+      "Cloak",
+      "Hood of Defiance",
+      "Ring of Protection",
+      "Chainmail"
+    ],
+    "image": "assets/images/items/items_shield3.png",
+    "componentsData": [
+      {
+        "name": "Cloak",
+        "image": "assets/images/items/items_magicres1.png",
+        "rarity": 0
+      },
+      {
+        "name": "Hood of Defiance",
+        "image": "assets/images/items/items_magicres2.png",
+        "rarity": 0
+      },
+      {
+        "name": "Ring of Protection",
+        "image": "assets/images/items/items_armor1.png",
+        "rarity": 0
+      },
+      {
+        "name": "Chainmail",
+        "image": "assets/images/items/items_armor2.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 1,
+    "rarityEn": "Rare",
+    "rarityEs": "Raro",
+    "rarityPt": "Raro"
+  },
+  {
+    "result": "Miracle Boots",
+    "components": [
+      "Boots of Speed"
+    ],
+    "image": "assets/images/items/items_bootscrit.png",
+    "componentsData": [
+      {
+        "name": "Boots of Speed",
+        "image": "assets/images/items/items_boots1.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Épico"
+  },
+  {
+    "result": "Boots of Wonder",
+    "components": [
+      "Miracle Boots",
+      "Heartgore",
+      "Flame Rod"
+    ],
+    "image": "assets/images/items/items_bootscrit_2.png",
+    "componentsData": [
+      {
+        "name": "Miracle Boots",
+        "image": "assets/images/items/items_bootscrit.png",
+        "rarity": 2
+      },
+      {
+        "name": "Heartgore",
+        "image": "assets/images/items/items_crit_pure_2.png",
+        "rarity": 2
+      },
+      {
+        "name": "Flame Rod",
+        "image": "assets/images/items/items_weapon5_magma.png",
+        "rarity": 2
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Lendário"
+  },
+  {
+    "result": "Bloodstriders",
+    "components": [
+      "Boots of Floating Swiftness",
+      "Bloody Ballista"
+    ],
+    "image": "assets/images/items/items_bootsblood2.png",
+    "componentsData": [
+      {
+        "name": "Boots of Floating Swiftness",
+        "image": "assets/images/items/items_bootsswift.png",
+        "rarity": 0
+      },
+      {
+        "name": "Bloody Ballista",
+        "image": "assets/images/items/items_endgame3.png",
+        "rarity": 3
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Lendário"
+  },
+  {
+    "result": "Bloody Ballista",
+    "components": [
+      "Legacy of Blood",
+      "Claymore"
+    ],
+    "image": "assets/images/items/items_endgame3.png",
+    "componentsData": [
+      {
+        "name": "Legacy of Blood",
+        "image": "assets/images/items/items_weapon6.png",
+        "rarity": 1
+      },
+      {
+        "name": "Claymore",
+        "image": "assets/images/items/items_dmg3.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Lendário"
+  },
+  {
+    "result": "Arcane Blaster",
+    "components": [
+      "Flamefury",
+      "Flame Rod"
+    ],
+    "image": "assets/images/items/items_arcaneblaster.png",
+    "componentsData": [
+      {
+        "name": "Flamefury",
+        "image": "assets/images/items/items_flamefury.png",
+        "rarity": 2
+      },
+      {
+        "name": "Flame Rod",
+        "image": "assets/images/items/items_weapon5_magma.png",
+        "rarity": 2
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Lendário"
+  },
+  {
+    "result": "Crystal Reflectors",
+    "components": [
+      "Boots of the Unstoppable"
+    ],
+    "image": "assets/images/items/items_bootsreflect2.png",
+    "componentsData": [
+      {
+        "name": "Boots of the Unstoppable",
+        "image": "assets/images/items/items_bootshp2.png",
+        "rarity": 2
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Lendário"
+  },
+  {
+    "result": "Legionnaire's Banner",
+    "components": [
+      "Runeblade",
+      "Heartgore"
+    ],
+    "image": "assets/images/items/items_allstats5.png",
+    "componentsData": [
+      {
+        "name": "Runeblade",
+        "image": "assets/images/items/items_allstats4.png",
+        "rarity": 2
+      },
+      {
+        "name": "Heartgore",
+        "image": "assets/images/items/items_crit_pure_2.png",
+        "rarity": 2
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Lendário"
+  },
+  {
+    "result": "Pride of Valyria",
+    "components": [
+      "Mighty Reaver",
+      "Cleaver of Strength"
+    ],
+    "image": "assets/images/items/items_valyrian.png",
+    "componentsData": [
+      {
+        "name": "Mighty Reaver",
+        "image": "assets/images/items/items_weapon7.png",
+        "rarity": 1
+      },
+      {
+        "name": "Cleaver of Strength",
+        "image": "assets/images/items/items_str3.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "The Great Massacre",
+    "components": [
+      "The Great Zweihander",
+      "Pride of Valyria"
+    ],
+    "image": "assets/images/items/items_dreihander.png",
+    "componentsData": [
+      {
+        "name": "The Great Zweihander",
+        "image": "assets/images/items/items_weapon5.png",
+        "rarity": 2
+      },
+      {
+        "name": "Pride of Valyria",
+        "image": "assets/images/items/items_valyrian.png",
+        "rarity": 2
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Lendário"
+  },
+  {
+    "result": "Machete",
+    "components": [
+      "Quickstriking Dagger",
+      "Gloves of Haste"
+    ],
+    "image": "assets/images/items/items_endgame6.png",
+    "componentsData": [
+      {
+        "name": "Quickstriking Dagger",
+        "image": "assets/images/items/items_weapon4.png",
+        "rarity": 1
+      },
+      {
+        "name": "Gloves of Haste",
+        "image": "assets/images/items/items_gloves1.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Talisman of Liberation",
+    "components": [
+      "Ring of Protection",
+      "Cloak"
+    ],
+    "image": "assets/images/items/items_active1.png",
+    "componentsData": [
+      {
+        "name": "Ring of Protection",
+        "image": "assets/images/items/items_armor1.png",
+        "rarity": 0
+      },
+      {
+        "name": "Cloak",
+        "image": "assets/images/items/items_magicres1.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 0,
+    "rarityEn": "Common",
+    "rarityEs": "Común",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Medaillon of Liberation",
+    "components": [
+      "Talisman of Liberation",
+      "Ring of Health"
+    ],
+    "image": "assets/images/items/items_active1up.png",
+    "componentsData": [
+      {
+        "name": "Talisman of Liberation",
+        "image": "assets/images/items/items_active1.png",
+        "rarity": 0
+      },
+      {
+        "name": "Ring of Health",
+        "image": "assets/images/items/items_recipe.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 1,
+    "rarityEn": "Rare",
+    "rarityEs": "Raro",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Ice Crown",
+    "components": [
+      "Belt of Strength",
+      "Belt of Strength"
+    ],
+    "image": "assets/images/items/items_active13.png",
+    "componentsData": [
+      {
+        "name": "Belt of Strength",
+        "image": "assets/images/items/items_str2.png",
+        "rarity": 0
+      },
+      {
+        "name": "Belt of Strength",
+        "image": "assets/images/items/items_str2.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 1,
+    "rarityEn": "Rare",
+    "rarityEs": "Raro",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Helm of the Ice King",
+    "components": [
+      "Shivas Shared Cold",
+      "Ice Crown"
+    ],
+    "image": "assets/images/items/items_helmofice.png",
+    "componentsData": [
+      {
+        "name": "Shivas Shared Cold",
+        "image": "assets/images/items/items_active3.png",
+        "rarity": 2
+      },
+      {
+        "name": "Ice Crown",
+        "image": "assets/images/items/items_active13.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Bracers of the Beast",
+    "components": [
+      "Tamer of Beasts",
+      "Steel Bite",
+      "Bow of the Eagle"
+    ],
+    "image": "assets/images/items/items_beastbracer.png",
+    "componentsData": [
+      {
+        "name": "Tamer of Beasts",
+        "image": "assets/images/items/items_beastmaster.png",
+        "rarity": 2
+      },
+      {
+        "name": "Steel Bite",
+        "image": "assets/images/items/items_weapon11.png",
+        "rarity": 2
+      },
+      {
+        "name": "Bow of the Eagle",
+        "image": "assets/images/items/items_weapon8.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Tamer of the Beasts",
+    "components": [
+      "Claymore"
+    ],
+    "image": "assets/images/items/items_recipe.png",
+    "componentsData": [
+      {
+        "name": "Claymore",
+        "image": "assets/images/items/items_dmg3.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 0,
+    "rarityEn": "Common",
+    "rarityEs": "Común",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Overseer's Falconbow",
+    "components": [
+      "Marching Drums of Bravery",
+      "Taskmaster's Presence"
+    ],
+    "image": "assets/images/items/items_aura_eagle.png",
+    "componentsData": [
+      {
+        "name": "Marching Drums of Bravery",
+        "image": "assets/images/items/items_aura2.png",
+        "rarity": 2
+      },
+      {
+        "name": "Taskmaster's Presence",
+        "image": "assets/images/items/items_active99.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Taskmaster's Presence",
+    "components": [
+      "Ring of Life",
+      "Gloves of Haste"
+    ],
+    "image": "assets/images/items/items_active99.png",
+    "componentsData": [
+      {
+        "name": "Ring of Life",
+        "image": "assets/images/items/items_hp1.png",
+        "rarity": 0
+      },
+      {
+        "name": "Gloves of Haste",
+        "image": "assets/images/items/items_gloves1.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 1,
+    "rarityEn": "Rare",
+    "rarityEs": "Raro",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Arcano Dagger",
+    "components": [
+      "Hara-Kiri Mask",
+      "Manafusion Wand"
+    ],
+    "image": "assets/images/items/items_active9up.png",
+    "componentsData": [
+      {
+        "name": "Hara-Kiri Mask",
+        "image": "assets/images/items/items_active9.png",
+        "rarity": 1
+      },
+      {
+        "name": "Manafusion Wand",
+        "image": "assets/images/items/items_caster55.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 1,
+    "rarityEn": "Rare",
+    "rarityEs": "Raro",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Silvermoon Defender",
+    "components": [
+      "Bronze Fortress",
+      "Luna's Blessing"
+    ],
+    "image": "assets/images/items/items_silvermoon.png",
+    "componentsData": [
+      {
+        "name": "Bronze Fortress",
+        "image": "assets/images/items/items_active2up.png",
+        "rarity": 1
+      },
+      {
+        "name": "Luna's Blessing",
+        "image": "assets/images/items/items_shieldluna.png",
+        "rarity": 2
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Bronze Fortress",
+    "components": [
+      "Mail Fortress"
+    ],
+    "image": "assets/images/items/items_active2up.png",
+    "componentsData": [
+      {
+        "name": "Mail Fortress",
+        "image": "assets/images/items/items_active2.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 1,
+    "rarityEn": "Rare",
+    "rarityEs": "Raro",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Mail Fortress",
+    "components": [
+      "Ring of Life"
+    ],
+    "image": "assets/images/items/items_active2.png",
+    "componentsData": [
+      {
+        "name": "Ring of Life",
+        "image": "assets/images/items/items_hp1.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 0,
+    "rarityEn": "Common",
+    "rarityEs": "Común",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Shivas Shared Cold",
+    "components": [
+      "Stone of Life",
+      "Platemail",
+      "Chainmail"
+    ],
+    "image": "assets/images/items/items_active3.png",
+    "componentsData": [
+      {
+        "name": "Stone of Life",
+        "image": "assets/images/items/items_hp2.png",
+        "rarity": 0
+      },
+      {
+        "name": "Platemail",
+        "image": "assets/images/items/items_armor3.png",
+        "rarity": 0
+      },
+      {
+        "name": "Chainmail",
+        "image": "assets/images/items/items_armor2.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Gloves of the Templar",
+    "components": [
+      "Glove of the Dreamer",
+      "Robe of the Magi"
+    ],
+    "image": "assets/images/items/items_activepriest2.png",
+    "componentsData": [
+      {
+        "name": "Glove of the Dreamer",
+        "image": "assets/images/items/items_recipe.png",
+        "rarity": 0
+      },
+      {
+        "name": "Robe of the Magi",
+        "image": "assets/images/items/items_int2.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Arctic Frost Shard",
+    "components": [
+      "Bracers of Frost",
+      "Mighty Reaver"
+    ],
+    "image": "assets/images/items/items_activedk_frost2.png",
+    "componentsData": [
+      {
+        "name": "Bracers of Frost",
+        "image": "assets/images/items/items_activedk_frost.png",
+        "rarity": 0
+      },
+      {
+        "name": "Mighty Reaver",
+        "image": "assets/images/items/items_weapon7.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Horn of Kelthador",
+    "components": [
+      "Whistle of Kelthador",
+      "Sword of Vigor"
+    ],
+    "image": "assets/images/items/items_activedk2.png",
+    "componentsData": [
+      {
+        "name": "Whistle of Kelthador",
+        "image": "assets/images/items/items_activedk.png",
+        "rarity": 0
+      },
+      {
+        "name": "Sword of Vigor",
+        "image": "assets/images/items/items_weapon1.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Legionnaire's Edge",
+    "components": [
+      "Commander Gloves",
+      "Mighty Reaver"
+    ],
+    "image": "assets/images/items/items_activewarrior2.png",
+    "componentsData": [
+      {
+        "name": "Commander Gloves",
+        "image": "assets/images/items/items_recipe.png",
+        "rarity": 0
+      },
+      {
+        "name": "Mighty Reaver",
+        "image": "assets/images/items/items_weapon7.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Shadowflame Gloves",
+    "components": [
+      "Cataclysm Gloves",
+      "Robe of the Magi"
+    ],
+    "image": "assets/images/items/items_activewarlock2.png",
+    "componentsData": [
+      {
+        "name": "Cataclysm Gloves",
+        "image": "assets/images/items/items_recipe.png",
+        "rarity": 0
+      },
+      {
+        "name": "Robe of the Magi",
+        "image": "assets/images/items/items_int2.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Netherstorm Flask",
+    "components": [
+      "Storm Flask",
+      "Spelldagger"
+    ],
+    "image": "assets/images/items/items_activemage3.png",
+    "componentsData": [
+      {
+        "name": "Storm Flask",
+        "image": "assets/images/items/items_activemage2.png",
+        "rarity": 0
+      },
+      {
+        "name": "Spelldagger",
+        "image": "assets/images/items/items_caster5.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Ice Spike Mail",
+    "components": [
+      "Bronze Fortress"
+    ],
+    "image": "assets/images/items/items_activemage.png",
+    "componentsData": [
+      {
+        "name": "Bronze Fortress",
+        "image": "assets/images/items/items_active2up.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 1,
+    "rarityEn": "Rare",
+    "rarityEs": "Raro",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Fairy Dust",
+    "components": [
+      "Barrier Gloves",
+      "Band of Elvenskin"
+    ],
+    "image": "assets/images/items/items_activehunter2.png",
+    "componentsData": [
+      {
+        "name": "Barrier Gloves",
+        "image": "assets/images/items/items_activehunter.png",
+        "rarity": 0
+      },
+      {
+        "name": "Band of Elvenskin",
+        "image": "assets/images/items/items_agi2.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Book of the Jungle",
+    "components": [
+      "Gloves of the Forest",
+      "Lance of Steel"
+    ],
+    "image": "assets/images/items/items_recipe.png",
+    "componentsData": [
+      {
+        "name": "Gloves of the Forest",
+        "image": "assets/images/items/items_activedruid.png",
+        "rarity": 0
+      },
+      {
+        "name": "Lance of Steel",
+        "image": "assets/images/items/items_crit_pure.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 1,
+    "rarityEn": "Common",
+    "rarityEs": "Común",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Paladin's Faceguard",
+    "components": [
+      "Holy Gloves",
+      "Battle Standard of Endurance"
+    ],
+    "image": "assets/images/items/items_activepaladin2.png",
+    "componentsData": [
+      {
+        "name": "Holy Gloves",
+        "image": "assets/images/items/items_activepaladin.png",
+        "rarity": 0
+      },
+      {
+        "name": "Battle Standard of Endurance",
+        "image": "assets/images/items/items_aura3.png",
+        "rarity": 2
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Hand of Darkness",
+    "components": [
+      "Shadow Gloves",
+      "Sword of Swiftness"
+    ],
+    "image": "assets/images/items/items_recipe.png",
+    "componentsData": [
+      {
+        "name": "Shadow Gloves",
+        "image": "assets/images/items/items_activerogue2.png",
+        "rarity": 0
+      },
+      {
+        "name": "Sword of Swiftness",
+        "image": "assets/images/items/items_weapon2.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 1,
+    "rarityEn": "Common",
+    "rarityEs": "Común",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Viperstrike Gloves",
+    "components": [
+      "Poison Rock",
+      "Band of Elvenskin"
+    ],
+    "image": "assets/images/items/items_activerogue3.png",
+    "componentsData": [
+      {
+        "name": "Poison Rock",
+        "image": "assets/images/items/items_recipe.png",
+        "rarity": 0
+      },
+      {
+        "name": "Band of Elvenskin",
+        "image": "assets/images/items/items_agi2.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Spirit-Hex Gloves",
+    "components": [
+      "Hex Gloves",
+      "Ring of the Spirithawk"
+    ],
+    "image": "assets/images/items/items_activeshaman2.png",
+    "componentsData": [
+      {
+        "name": "Hex Gloves",
+        "image": "assets/images/items/items_activeshaman.png",
+        "rarity": 0
+      },
+      {
+        "name": "Ring of the Spirithawk",
+        "image": "assets/images/items/items_allstats2up.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Bloodfang",
+    "components": [
+      "Sword of Swiftness",
+      "Iron Talon"
+    ],
+    "image": "assets/images/items/items_irontalon2.png",
+    "componentsData": [
+      {
+        "name": "Sword of Swiftness",
+        "image": "assets/images/items/items_weapon2.png",
+        "rarity": 1
+      },
+      {
+        "name": "Iron Talon",
+        "image": "assets/images/items/items_irontalon.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Iron Talon",
+    "components": [
+      "Claws of Attack"
+    ],
+    "image": "assets/images/items/items_irontalon.png",
+    "componentsData": [
+      {
+        "name": "Claws of Attack",
+        "image": "assets/images/items/items_dmg1.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 0,
+    "rarityEn": "Common",
+    "rarityEs": "Común",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Sacred Lotus",
+    "components": [
+      "Stone of Life",
+      "Cowl of Disguise",
+      "Cloak"
+    ],
+    "image": "assets/images/items/items_active4.png",
+    "componentsData": [
+      {
+        "name": "Stone of Life",
+        "image": "assets/images/items/items_hp2.png",
+        "rarity": 0
+      },
+      {
+        "name": "Cowl of Disguise",
+        "image": "assets/images/items/items_magicres3.png",
+        "rarity": 0
+      },
+      {
+        "name": "Cloak",
+        "image": "assets/images/items/items_magicres1.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Fist of Thunder",
+    "components": [
+      "Stormborn",
+      "Thunder's Rumble Mace"
+    ],
+    "image": "assets/images/items/items_active5up.png",
+    "componentsData": [
+      {
+        "name": "Stormborn",
+        "image": "assets/images/items/items_weapon20.png",
+        "rarity": 1
+      },
+      {
+        "name": "Thunder's Rumble Mace",
+        "image": "assets/images/items/items_active5.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Thunder's Rumble Mace",
+    "components": [
+      "Spelldagger"
+    ],
+    "image": "assets/images/items/items_active5.png",
+    "componentsData": [
+      {
+        "name": "Spelldagger",
+        "image": "assets/images/items/items_caster5.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 1,
+    "rarityEn": "Rare",
+    "rarityEs": "Raro",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Wildfire Insanity",
+    "components": [
+      "Wings of Hell",
+      "Ashbringer Totemstaff"
+    ],
+    "image": "assets/images/items/items_hellbringer.png",
+    "componentsData": [
+      {
+        "name": "Wings of Hell",
+        "image": "assets/images/items/items_active6.png",
+        "rarity": 2
+      },
+      {
+        "name": "Ashbringer Totemstaff",
+        "image": "assets/images/items/items_fireball.png",
+        "rarity": 2
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Wings of Hell",
+    "components": [
+      "The Angry Arcanist"
+    ],
+    "image": "assets/images/items/items_active6.png",
+    "componentsData": [
+      {
+        "name": "The Angry Arcanist",
+        "image": "assets/images/items/items_caster4.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Satan's Offering",
+    "components": [
+      "Ring of Life"
+    ],
+    "image": "assets/images/items/items_devilsoul.png",
+    "componentsData": [
+      {
+        "name": "Ring of Life",
+        "image": "assets/images/items/items_hp1.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 1,
+    "rarityEn": "Rare",
+    "rarityEs": "Raro",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Cloak of Escape",
+    "components": [
+      "Ornament of Sacrifice",
+      "Robe of the Magi"
+    ],
+    "image": "assets/images/items/items_active7up.png",
+    "componentsData": [
+      {
+        "name": "Ornament of Sacrifice",
+        "image": "assets/images/items/items_active7.png",
+        "rarity": 1
+      },
+      {
+        "name": "Robe of the Magi",
+        "image": "assets/images/items/items_int2.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Ornament of Sacrifice",
+    "components": [
+      "The Angry Arcanist",
+      "Ring of Life"
+    ],
+    "image": "assets/images/items/items_active7.png",
+    "componentsData": [
+      {
+        "name": "The Angry Arcanist",
+        "image": "assets/images/items/items_caster4.png",
+        "rarity": 1
+      },
+      {
+        "name": "Ring of Life",
+        "image": "assets/images/items/items_hp1.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 1,
+    "rarityEn": "Rare",
+    "rarityEs": "Raro",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Holy Hammer",
+    "components": [
+      "The Angry Arcanist",
+      "Staff of Wizardy",
+      "Null Talisman"
+    ],
+    "image": "assets/images/items/items_holyhammer2.png",
+    "componentsData": [
+      {
+        "name": "The Angry Arcanist",
+        "image": "assets/images/items/items_caster4.png",
+        "rarity": 1
+      },
+      {
+        "name": "Staff of Wizardy",
+        "image": "assets/images/items/items_recipe.png",
+        "rarity": 0
+      },
+      {
+        "name": "Null Talisman",
+        "image": "assets/images/items/items_intrecipe.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Sniperhawk",
+    "components": [
+      "Bow of the Eagle",
+      "Blade of Alacrity"
+    ],
+    "image": "assets/images/items/items_bowupgrade.png",
+    "componentsData": [
+      {
+        "name": "Bow of the Eagle",
+        "image": "assets/images/items/items_weapon8.png",
+        "rarity": 1
+      },
+      {
+        "name": "Blade of Alacrity",
+        "image": "assets/images/items/items_agi3.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Hurricane's End",
+    "components": [
+      "Cyclone's End",
+      "Tempest's End"
+    ],
+    "image": "assets/images/items/items_spellhaste_3.png",
+    "componentsData": [
+      {
+        "name": "Cyclone's End",
+        "image": "assets/images/items/items_spellhaste_1.png",
+        "rarity": 3
+      },
+      {
+        "name": "Tempest's End",
+        "image": "assets/images/items/items_spellhaste_2.png",
+        "rarity": 3
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Swiftbite Set",
+    "components": [
+      "Swiftbite Hood",
+      "Swiftbite Treads",
+      "Swiftbite Gloves",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_agi_dmg_full.png",
+    "componentsData": [
+      {
+        "name": "Swiftbite Hood",
+        "image": "assets/images/items/items_recipe.png",
+        "rarity": 0
+      },
+      {
+        "name": "Swiftbite Treads",
+        "image": "assets/images/items/items_set_agi_dmg_2.png",
+        "rarity": 3
+      },
+      {
+        "name": "Swiftbite Gloves",
+        "image": "assets/images/items/items_set_agi_dmg_3.png",
+        "rarity": 3
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Bloodswipe Set",
+    "components": [
+      "Bloodswipe Helmet",
+      "Bloodswipe Chestplate",
+      "Bloodswipe Gloves",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_str_tank_full.png",
+    "componentsData": [
+      {
+        "name": "Bloodswipe Helmet",
+        "image": "assets/images/items/items_set_str_tank_1.png",
+        "rarity": 3
+      },
+      {
+        "name": "Bloodswipe Chestplate",
+        "image": "assets/images/items/items_set_str_tank_2.png",
+        "rarity": 3
+      },
+      {
+        "name": "Bloodswipe Gloves",
+        "image": "assets/images/items/items_set_str_tank_3.png",
+        "rarity": 3
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Winterwolf Clan Standard",
+    "components": [
+      "Battle Standar of Endurance",
+      "Winter Belt"
+    ],
+    "image": "assets/images/items/items_wolf_belt_standard.png",
+    "componentsData": [
+      {
+        "name": "Battle Standar of Endurance",
+        "image": "assets/images/items/items_recipe.png",
+        "rarity": 0
+      },
+      {
+        "name": "Winter Belt",
+        "image": "assets/images/items/items_recipe.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Crowmaster",
+    "components": [
+      "Flameleader",
+      "Winterhide Wizar Cloak"
+    ],
+    "image": "assets/images/items/items_wolf_cloak_2.png",
+    "componentsData": [
+      {
+        "name": "Flameleader",
+        "image": "assets/images/items/items_aura4.png",
+        "rarity": 1
+      },
+      {
+        "name": "Winterhide Wizar Cloak",
+        "image": "assets/images/items/items_recipe.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Darkforce, Caster of Shadows",
+    "components": [
+      "The Angry Arcanist",
+      "Spelldagger"
+    ],
+    "image": "assets/images/items/items_nova_blade_shadow.png",
+    "componentsData": [
+      {
+        "name": "The Angry Arcanist",
+        "image": "assets/images/items/items_caster4.png",
+        "rarity": 1
+      },
+      {
+        "name": "Spelldagger",
+        "image": "assets/images/items/items_caster5.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Azuresky Warglaive Set",
+    "components": [
+      "Azuresky Warglaive",
+      "Azuresky Warglaive"
+    ],
+    "image": "assets/images/items/items_warglaive_full.png",
+    "componentsData": [
+      {
+        "name": "Azuresky Warglaive",
+        "image": "assets/images/items/items_warglaive_2.png",
+        "rarity": 3
+      },
+      {
+        "name": "Azuresky Warglaive",
+        "image": "assets/images/items/items_warglaive_2.png",
+        "rarity": 3
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Skyborn Dragon Set",
+    "components": [
+      "Skyborn Dragon Mask",
+      "Skyborn Dragon Chestguard",
+      "Skyborn Dragon Treads",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_agi_t2_full.png",
+    "componentsData": [
+      {
+        "name": "Skyborn Dragon Mask",
+        "image": "assets/images/items/items_set_agi_t2_1.png",
+        "rarity": 3
+      },
+      {
+        "name": "Skyborn Dragon Chestguard",
+        "image": "assets/images/items/items_set_agi_t2_2.png",
+        "rarity": 3
+      },
+      {
+        "name": "Skyborn Dragon Treads",
+        "image": "assets/images/items/items_set_agi_t2_3.png",
+        "rarity": 3
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Stoneskin Dragon Set",
+    "components": [
+      "Stoneskin Dragon Helmet",
+      "Stoneskin Dragon Chestguard",
+      "Stoneskin Dragon Bracers",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_str_t2_full.png",
+    "componentsData": [
+      {
+        "name": "Stoneskin Dragon Helmet",
+        "image": "assets/images/items/items_set_str_t2_1.png",
+        "rarity": 3
+      },
+      {
+        "name": "Stoneskin Dragon Chestguard",
+        "image": "assets/images/items/items_set_str_t2_2.png",
+        "rarity": 3
+      },
+      {
+        "name": "Stoneskin Dragon Bracers",
+        "image": "assets/images/items/items_set_str_t2_3.png",
+        "rarity": 3
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Mace of Thunder",
+    "components": [
+      "Broadsword"
+    ],
+    "image": "assets/images/items/items_chainlightning.png",
+    "componentsData": [
+      {
+        "name": "Broadsword",
+        "image": "assets/images/items/items_dmg2.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 1,
+    "rarityEn": "Rare",
+    "rarityEs": "Raro",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Demonglaive",
+    "components": [
+      "Hearth of Mercury",
+      "Blade of Alacrity"
+    ],
+    "image": "assets/images/items/items_demonglaive.png",
+    "componentsData": [
+      {
+        "name": "Hearth of Mercury",
+        "image": "assets/images/items/items_recipe.png",
+        "rarity": 0
+      },
+      {
+        "name": "Blade of Alacrity",
+        "image": "assets/images/items/items_agi3.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Demonslayer Gloves",
+    "components": [
+      "Demon Gloves",
+      "Lance of Steel"
+    ],
+    "image": "assets/images/items/items_activedh2.png",
+    "componentsData": [
+      {
+        "name": "Demon Gloves",
+        "image": "assets/images/items/items_activedh.png",
+        "rarity": 0
+      },
+      {
+        "name": "Lance of Steel",
+        "image": "assets/images/items/items_crit_pure.png",
+        "rarity": 1
+      }
+    ],
+    "rarity": 2,
+    "rarityEn": "Epic",
+    "rarityEs": "Épico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Catharsis",
+    "components": [
+      "Machete"
+    ],
+    "image": "assets/images/items/items_purgeblade.png",
+    "componentsData": [
+      {
+        "name": "Machete",
+        "image": "assets/images/items/items_endgame6.png",
+        "rarity": 2
+      }
+    ],
+    "rarity": 3,
+    "rarityEn": "Legendary",
+    "rarityEs": "Legendario",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Brutal Gladiator's Set",
+    "components": [
+      "Brutal Gladiator's Carver",
+      "Brutal Gladiator's Wall",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_str_t3_full.png",
+    "componentsData": [
+      {
+        "name": "Brutal Gladiator's Carver",
+        "image": "assets/images/items/items_set_str_t3_1.png",
+        "rarity": 5
+      },
+      {
+        "name": "Brutal Gladiator's Wall",
+        "image": "assets/images/items/items_set_str_t3_2.png",
+        "rarity": 5
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 5,
+    "rarityEn": "Immortal",
+    "rarityEs": "Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Bounty Hunter's Set",
+    "components": [
+      "Bounty Hunter's Dagger",
+      "Bounty Hunter's Cape",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_agi_t3_full.png",
+    "componentsData": [
+      {
+        "name": "Bounty Hunter's Dagger",
+        "image": "assets/images/items/items_set_agi_t3_1.png",
+        "rarity": 5
+      },
+      {
+        "name": "Bounty Hunter's Cape",
+        "image": "assets/images/items/items_set_agi_t3_2.png",
+        "rarity": 5
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 5,
+    "rarityEn": "Immortal",
+    "rarityEs": "Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Forbidden Magic Set",
+    "components": [
+      "Forbidden Mask",
+      "Forbidden Cape",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_int_t3_full.png",
+    "componentsData": [
+      {
+        "name": "Forbidden Mask",
+        "image": "assets/images/items/items_set_int_t3_1.png",
+        "rarity": 5
+      },
+      {
+        "name": "Forbidden Cape",
+        "image": "assets/images/items/items_set_int_t3_2.png",
+        "rarity": 5
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 5,
+    "rarityEn": "Immortal",
+    "rarityEs": "Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Immortal Witcher Set",
+    "components": [
+      "Immortal Witcher Hood",
+      "Immortal Witcher Shoulders",
+      "Immortal Witcher Bracers",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_int_t3_2_full.png",
+    "componentsData": [
+      {
+        "name": "Immortal Witcher Hood",
+        "image": "assets/images/items/items_set_int_t3_2_1.png",
+        "rarity": 5
+      },
+      {
+        "name": "Immortal Witcher Shoulders",
+        "image": "assets/images/items/items_set_int_t3_2_2.png",
+        "rarity": 5
+      },
+      {
+        "name": "Immortal Witcher Bracers",
+        "image": "assets/images/items/items_set_int_t3_2_3.png",
+        "rarity": 5
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 5,
+    "rarityEn": "Immortal",
+    "rarityEs": "Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Immortal Colossus Set",
+    "components": [
+      "Immortal Colossus Helm",
+      "Immortal Colossus Belt",
+      "Immortal Colossus Bracers",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_str_t3_2_full.png",
+    "componentsData": [
+      {
+        "name": "Immortal Colossus Helm",
+        "image": "assets/images/items/items_set_str_t3_2_1.png",
+        "rarity": 5
+      },
+      {
+        "name": "Immortal Colossus Belt",
+        "image": "assets/images/items/items_set_str_t3_2_2.png",
+        "rarity": 5
+      },
+      {
+        "name": "Immortal Colossus Bracers",
+        "image": "assets/images/items/items_set_str_t3_2_3.png",
+        "rarity": 5
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 5,
+    "rarityEn": "Immortal",
+    "rarityEs": "Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Immortal Ninja Set",
+    "components": [
+      "Immortal Ninja Helm",
+      "Immortal Ninja Belt",
+      "Immortal Ninja Shoulders",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_agi_t3_2_full.png",
+    "componentsData": [
+      {
+        "name": "Immortal Ninja Helm",
+        "image": "assets/images/items/items_set_agi_t3_2_1.png",
+        "rarity": 5
+      },
+      {
+        "name": "Immortal Ninja Belt",
+        "image": "assets/images/items/items_set_agi_t3_2_2.png",
+        "rarity": 5
+      },
+      {
+        "name": "Immortal Ninja Shoulders",
+        "image": "assets/images/items/items_set_agi_t3_2_3.png",
+        "rarity": 5
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 5,
+    "rarityEn": "Immortal",
+    "rarityEs": "Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Dark Crusader's Vengeance Set",
+    "components": [
+      "Crusader's Vengeance Set",
+      "Temple Shard",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_str_dmg_full_dream.png",
+    "componentsData": [
+      {
+        "name": "Crusader's Vengeance Set",
+        "image": "assets/images/items/items_set_str_dmg_full.png",
+        "rarity": 3
+      },
+      {
+        "name": "Temple Shard",
+        "image": "assets/images/items/items_set_t2_combine_token.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Righteous Crusader's Vengeance Set",
+    "components": [
+      "Dark Crusader's Vengeance Set",
+      "Moonstone"
+    ],
+    "image": "assets/images/items/items_set_str_dmg_full_dream_2.png",
+    "componentsData": [
+      {
+        "name": "Dark Crusader's Vengeance Set",
+        "image": "assets/images/items/items_set_str_dmg_full_dream.png",
+        "rarity": 7
+      },
+      {
+        "name": "Moonstone",
+        "image": "assets/images/items/items_set_t3_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Mythical",
+    "rarityEs": "Mítico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Royal Murderer Set",
+    "components": [
+      "Swiftstrike Set",
+      "Moonstone"
+    ],
+    "image": "assets/images/items/items_set_agi_dmg_full_dream_2.png",
+    "componentsData": [
+      {
+        "name": "Swiftstrike Set",
+        "image": "assets/images/items/items_set_agi_dmg_full_dream.png",
+        "rarity": 7
+      },
+      {
+        "name": "Moonstone",
+        "image": "assets/images/items/items_set_t3_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Mythical",
+    "rarityEs": "Mítico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Swiftstrike Set",
+    "components": [
+      "Swiftbite Set",
+      "Temple Shard",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_agi_dmg_full_dream.png",
+    "componentsData": [
+      {
+        "name": "Swiftbite Set",
+        "image": "assets/images/items/items_set_agi_dmg_full.png",
+        "rarity": 3
+      },
+      {
+        "name": "Temple Shard",
+        "image": "assets/images/items/items_set_t2_combine_token.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Naga Witch Set",
+    "components": [
+      "Doom of the Crypt Set",
+      "Moonstone"
+    ],
+    "image": "assets/images/items/items_set_int_dmg_full_dream_2.png",
+    "componentsData": [
+      {
+        "name": "Doom of the Crypt Set",
+        "image": "assets/images/items/items_set_int_dmg_full_dream.png",
+        "rarity": 7
+      },
+      {
+        "name": "Moonstone",
+        "image": "assets/images/items/items_set_t3_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Mythical",
+    "rarityEs": "Mítico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Doom of the Crypt Set",
+    "components": [
+      "Doom of the Necropolis Set",
+      "Temple Shard",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_int_dmg_full_dream.png",
+    "componentsData": [
+      {
+        "name": "Doom of the Necropolis Set",
+        "image": "assets/images/items/items_set_int_dmg_full.png",
+        "rarity": 3
+      },
+      {
+        "name": "Temple Shard",
+        "image": "assets/images/items/items_set_t2_combine_token.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Sea Dragon Set",
+    "components": [
+      "Godswipe Set",
+      "Moonstone"
+    ],
+    "image": "assets/images/items/items_set_str_tank_full_dream_2.png",
+    "componentsData": [
+      {
+        "name": "Godswipe Set",
+        "image": "assets/images/items/items_set_str_tank_full_dream.png",
+        "rarity": 7
+      },
+      {
+        "name": "Moonstone",
+        "image": "assets/images/items/items_set_t3_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Mythical",
+    "rarityEs": "Mítico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Godswipe Set",
+    "components": [
+      "Bloodswipe Set",
+      "Temple Shard",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_str_tank_full_dream.png",
+    "componentsData": [
+      {
+        "name": "Bloodswipe Set",
+        "image": "assets/images/items/items_set_str_tank_full.png",
+        "rarity": 3
+      },
+      {
+        "name": "Temple Shard",
+        "image": "assets/images/items/items_set_t2_combine_token.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Holy Cleric Set",
+    "components": [
+      "Crystalforged Dragon Set",
+      "Moonstone"
+    ],
+    "image": "assets/images/items/items_set_int_t2_full_dream_2.png",
+    "componentsData": [
+      {
+        "name": "Crystalforged Dragon Set",
+        "image": "assets/images/items/items_set_int_t2_full_dream.png",
+        "rarity": 7
+      },
+      {
+        "name": "Moonstone",
+        "image": "assets/images/items/items_set_t3_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Mythical",
+    "rarityEs": "Mítico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Crystalforged Dragon Set",
+    "components": [
+      "Runeforged Dragon Set",
+      "Temple Shard",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_int_t2_full_dream.png",
+    "componentsData": [
+      {
+        "name": "Runeforged Dragon Set",
+        "image": "assets/images/items/items_set_int_t2_full.png",
+        "rarity": 3
+      },
+      {
+        "name": "Temple Shard",
+        "image": "assets/images/items/items_set_t2_combine_token.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Master Rogue",
+    "components": [
+      "Skyfall Dragon Set",
+      "Moonstone"
+    ],
+    "image": "assets/images/items/items_recipe.png",
+    "componentsData": [
+      {
+        "name": "Skyfall Dragon Set",
+        "image": "assets/images/items/items_set_agi_t2_full_dream.png",
+        "rarity": 7
+      },
+      {
+        "name": "Moonstone",
+        "image": "assets/images/items/items_set_t3_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Common",
+    "rarityEs": "Común",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Skyfall Dragon Set",
+    "components": [
+      "Skyborn Dragon Set",
+      "Temple Shard",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_agi_t2_full_dream.png",
+    "componentsData": [
+      {
+        "name": "Skyborn Dragon Set",
+        "image": "assets/images/items/items_set_agi_t2_full.png",
+        "rarity": 3
+      },
+      {
+        "name": "Temple Shard",
+        "image": "assets/images/items/items_set_t2_combine_token.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Iron Guard Set",
+    "components": [
+      "Stonescale Dragon Set",
+      "Moonstone"
+    ],
+    "image": "assets/images/items/items_set_str_t2_full_dream_2.png",
+    "componentsData": [
+      {
+        "name": "Stonescale Dragon Set",
+        "image": "assets/images/items/items_set_str_t2_full_dream.png",
+        "rarity": 7
+      },
+      {
+        "name": "Moonstone",
+        "image": "assets/images/items/items_set_t3_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Mythical",
+    "rarityEs": "Mítico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Stonescale Dragon Set",
+    "components": [
+      "Stoneskin Dragon Set",
+      "Temple Shard",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_str_t2_full_dream.png",
+    "componentsData": [
+      {
+        "name": "Stoneskin Dragon Set",
+        "image": "assets/images/items/items_set_str_t2_full.png",
+        "rarity": 3
+      },
+      {
+        "name": "Temple Shard",
+        "image": "assets/images/items/items_set_t2_combine_token.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Nightstalker Set",
+    "components": [
+      "Assassin's Set",
+      "Moonstone"
+    ],
+    "image": "assets/images/items/items_set_agi_t3_full_dream_2.png",
+    "componentsData": [
+      {
+        "name": "Assassin's Set",
+        "image": "assets/images/items/items_set_agi_t3_full_dream.png",
+        "rarity": 7
+      },
+      {
+        "name": "Moonstone",
+        "image": "assets/images/items/items_set_t3_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Mythical",
+    "rarityEs": "Mítico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Assassin's Set",
+    "components": [
+      "Bounty Hunter's Set",
+      "Temple Shard",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_agi_t3_full_dream.png",
+    "componentsData": [
+      {
+        "name": "Bounty Hunter's Set",
+        "image": "assets/images/items/items_set_agi_t3_full.png",
+        "rarity": 5
+      },
+      {
+        "name": "Temple Shard",
+        "image": "assets/images/items/items_set_t2_combine_token.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Kingsguard Set",
+    "components": [
+      "Savage Gladiator's Set",
+      "Moonstone"
+    ],
+    "image": "assets/images/items/items_set_str_t3_full_dream_2.png",
+    "componentsData": [
+      {
+        "name": "Savage Gladiator's Set",
+        "image": "assets/images/items/items_set_str_t3_full_dream.png",
+        "rarity": 7
+      },
+      {
+        "name": "Moonstone",
+        "image": "assets/images/items/items_set_t3_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Mythical",
+    "rarityEs": "Mítico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Savage Gladiator's Set",
+    "components": [
+      "Brutal Gladiator's Set",
+      "Temple Shard",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_str_t3_full_dream.png",
+    "componentsData": [
+      {
+        "name": "Brutal Gladiator's Set",
+        "image": "assets/images/items/items_set_str_t3_full.png",
+        "rarity": 5
+      },
+      {
+        "name": "Temple Shard",
+        "image": "assets/images/items/items_set_t2_combine_token.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Warmage Set",
+    "components": [
+      "Forbidden Nether Set",
+      "Moonstone"
+    ],
+    "image": "assets/images/items/items_set_int_t3_full_dream_2.png",
+    "componentsData": [
+      {
+        "name": "Forbidden Nether Set",
+        "image": "assets/images/items/items_set_int_t3_full_dream.png",
+        "rarity": 7
+      },
+      {
+        "name": "Moonstone",
+        "image": "assets/images/items/items_set_t3_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Mythical",
+    "rarityEs": "Mítico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Forbidden Nether Set",
+    "components": [
+      "Forbidden Magic Set",
+      "Temple Shard",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_int_t3_full_dream.png",
+    "componentsData": [
+      {
+        "name": "Forbidden Magic Set",
+        "image": "assets/images/items/items_set_int_t3_full.png",
+        "rarity": 5
+      },
+      {
+        "name": "Temple Shard",
+        "image": "assets/images/items/items_set_t2_combine_token.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Dark Priest Set",
+    "components": [
+      "Immortal Occultist Set",
+      "Moonstone"
+    ],
+    "image": "assets/images/items/items_set_int_t3_2_full_dream_2.png",
+    "componentsData": [
+      {
+        "name": "Immortal Occultist Set",
+        "image": "assets/images/items/items_set_int_t3_2_full_dream.png",
+        "rarity": 7
+      },
+      {
+        "name": "Moonstone",
+        "image": "assets/images/items/items_set_t3_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Mythical",
+    "rarityEs": "Mítico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Immortal Occultist Set",
+    "components": [
+      "Immortal Witcher Set",
+      "Temple Shard",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_int_t3_2_full_dream.png",
+    "componentsData": [
+      {
+        "name": "Immortal Witcher Set",
+        "image": "assets/images/items/items_set_int_t3_2_full.png",
+        "rarity": 5
+      },
+      {
+        "name": "Temple Shard",
+        "image": "assets/images/items/items_set_t2_combine_token.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Iron Warden Set",
+    "components": [
+      "Immortal Cyclops Set",
+      "Moonstone"
+    ],
+    "image": "assets/images/items/items_set_str_t3_2_full_dream_2.png",
+    "componentsData": [
+      {
+        "name": "Immortal Cyclops Set",
+        "image": "assets/images/items/items_set_str_t3_2_full_dream.png",
+        "rarity": 7
+      },
+      {
+        "name": "Moonstone",
+        "image": "assets/images/items/items_set_t3_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Mythical",
+    "rarityEs": "Mítico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Immortal Cyclops Set",
+    "components": [
+      "Immortal Colossus Set",
+      "Temple Shard",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_str_t3_2_full_dream.png",
+    "componentsData": [
+      {
+        "name": "Immortal Colossus Set",
+        "image": "assets/images/items/items_set_str_t3_2_full.png",
+        "rarity": 5
+      },
+      {
+        "name": "Temple Shard",
+        "image": "assets/images/items/items_set_t2_combine_token.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Immortal Templar Set",
+    "components": [
+      "Immortal Ninja Set",
+      "Temple Shard",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_agi_t3_2_full_dream.png",
+    "componentsData": [
+      {
+        "name": "Immortal Ninja Set",
+        "image": "assets/images/items/items_set_agi_t3_2_full.png",
+        "rarity": 5
+      },
+      {
+        "name": "Temple Shard",
+        "image": "assets/images/items/items_set_t2_combine_token.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Dark Templar Set",
+    "components": [
+      "Immortal Templar Set",
+      "Moonstone"
+    ],
+    "image": "assets/images/items/items_set_agi_t3_2_full_dream_2.png",
+    "componentsData": [
+      {
+        "name": "Immortal Templar Set",
+        "image": "assets/images/items/items_set_agi_t3_2_full_dream.png",
+        "rarity": 7
+      },
+      {
+        "name": "Moonstone",
+        "image": "assets/images/items/items_set_t3_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Mythical",
+    "rarityEs": "Mítico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Demonfall Set",
+    "components": [
+      "Azuresky Dragon Glaive Set",
+      "Moonstone"
+    ],
+    "image": "assets/images/items/items_warglaive_full_dream_2.png",
+    "componentsData": [
+      {
+        "name": "Azuresky Dragon Glaive Set",
+        "image": "assets/images/items/items_warglaive_full_dream.png",
+        "rarity": 7
+      },
+      {
+        "name": "Moonstone",
+        "image": "assets/images/items/items_set_t3_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Mythical",
+    "rarityEs": "Mítico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Azuresky Dragon Glaive Set",
+    "components": [
+      "Azuresky Warglaive Set",
+      "Temple Shard",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_warglaive_full_dream.png",
+    "componentsData": [
+      {
+        "name": "Azuresky Warglaive Set",
+        "image": "assets/images/items/items_warglaive_full.png",
+        "rarity": 3
+      },
+      {
+        "name": "Temple Shard",
+        "image": "assets/images/items/items_set_t2_combine_token.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Legion Breaker Set",
+    "components": [
+      "Set of the Golden Lion",
+      "Titan Blood"
+    ],
+    "image": "assets/images/items/items_set_t4_aad_5.png",
+    "componentsData": [
+      {
+        "name": "Set of the Golden Lion",
+        "image": "assets/images/items/items_set_t4_aad_4.png",
+        "rarity": 7
+      },
+      {
+        "name": "Titan Blood",
+        "image": "assets/images/items/items_set_t4_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Mythical",
+    "rarityEs": "Mítico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Monkey Storm Set",
+    "components": [
+      "Monkey King Set",
+      "Titan Blood"
+    ],
+    "image": "assets/images/items/items_set_t4_new_5.png",
+    "componentsData": [
+      {
+        "name": "Monkey King Set",
+        "image": "assets/images/items/items_set_t4_new_4.png",
+        "rarity": 7
+      },
+      {
+        "name": "Titan Blood",
+        "image": "assets/images/items/items_set_t4_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Mythical",
+    "rarityEs": "Mítico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Cruel BloodWolf Set",
+    "components": [
+      "Cruel Warlord Set",
+      "Titan Blood"
+    ],
+    "image": "assets/images/items/items_recipe.png",
+    "componentsData": [
+      {
+        "name": "Cruel Warlord Set",
+        "image": "assets/images/items/items_set_t4_aa_4.png",
+        "rarity": 7
+      },
+      {
+        "name": "Titan Blood",
+        "image": "assets/images/items/items_set_t4_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Common",
+    "rarityEs": "Común",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Shadow Demon Set",
+    "components": [
+      "Sinister Warlock Set",
+      "Titan Blood"
+    ],
+    "image": "assets/images/items/items_set_t4_sp_5.png",
+    "componentsData": [
+      {
+        "name": "Sinister Warlock Set",
+        "image": "assets/images/items/items_set_t4_sp_4.png",
+        "rarity": 7
+      },
+      {
+        "name": "Titan Blood",
+        "image": "assets/images/items/items_set_t4_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Mythical",
+    "rarityEs": "Mítico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Dragon Guardian Set",
+    "components": [
+      "Morass Guardian Set",
+      "Titan Blood"
+    ],
+    "image": "assets/images/items/items_set_t4_int_5.png",
+    "componentsData": [
+      {
+        "name": "Morass Guardian Set",
+        "image": "assets/images/items/items_set_t4_int_4.png",
+        "rarity": 7
+      },
+      {
+        "name": "Titan Blood",
+        "image": "assets/images/items/items_set_t4_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Mythical",
+    "rarityEs": "Mítico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Moon Light Set",
+    "components": [
+      "Jungle Warden Set",
+      "Titan Blood"
+    ],
+    "image": "assets/images/items/items_set_t4_agi_5.png",
+    "componentsData": [
+      {
+        "name": "Jungle Warden Set",
+        "image": "assets/images/items/items_set_t4_agi_4.png",
+        "rarity": 7
+      },
+      {
+        "name": "Titan Blood",
+        "image": "assets/images/items/items_set_t4_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Mythical",
+    "rarityEs": "Mítico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Wild Grizzly Set",
+    "components": [
+      "Voodoo Might Set",
+      "Titan Blood"
+    ],
+    "image": "assets/images/items/items_set_t4_str_5.png",
+    "componentsData": [
+      {
+        "name": "Voodoo Might Set",
+        "image": "assets/images/items/items_set_t4_str_4.png",
+        "rarity": 7
+      },
+      {
+        "name": "Titan Blood",
+        "image": "assets/images/items/items_set_t4_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Mythical",
+    "rarityEs": "Mítico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Monkey King Set",
+    "components": [
+      "Monkey King Bracers",
+      "Monkey King Shoulders",
+      "Monkey King Headdress",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_t4_new_4.png",
+    "componentsData": [
+      {
+        "name": "Monkey King Bracers",
+        "image": "assets/images/items/items_set_t4_new_1.png",
+        "rarity": 7
+      },
+      {
+        "name": "Monkey King Shoulders",
+        "image": "assets/images/items/items_set_t4_new_2.png",
+        "rarity": 7
+      },
+      {
+        "name": "Monkey King Headdress",
+        "image": "assets/images/items/items_set_t4_new_3.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Cruel Warlord Set",
+    "components": [
+      "Cruel Warlord Mask",
+      "Cruel Warlord Shoulders",
+      "Cruel Warlord Axe",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_t4_aa_4.png",
+    "componentsData": [
+      {
+        "name": "Cruel Warlord Mask",
+        "image": "assets/images/items/items_set_t4_aa_1.png",
+        "rarity": 7
+      },
+      {
+        "name": "Cruel Warlord Shoulders",
+        "image": "assets/images/items/items_set_t4_aa_2.png",
+        "rarity": 7
+      },
+      {
+        "name": "Cruel Warlord Axe",
+        "image": "assets/images/items/items_set_t4_aa_3.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Sinister Warlock Set",
+    "components": [
+      "Sinister Warlock Hood",
+      "Sinister Warlock Armor",
+      "Sinister Warlock Bracers",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_t4_sp_4.png",
+    "componentsData": [
+      {
+        "name": "Sinister Warlock Hood",
+        "image": "assets/images/items/items_set_t4_sp_1.png",
+        "rarity": 7
+      },
+      {
+        "name": "Sinister Warlock Armor",
+        "image": "assets/images/items/items_set_t4_sp_2.png",
+        "rarity": 7
+      },
+      {
+        "name": "Sinister Warlock Bracers",
+        "image": "assets/images/items/items_set_t4_sp_3.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Morass Guardian Set",
+    "components": [
+      "Morass Guardian Headdress",
+      "Morass Guardian Belt",
+      "Morass Guardian Shoulders",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_t4_int_4.png",
+    "componentsData": [
+      {
+        "name": "Morass Guardian Headdress",
+        "image": "assets/images/items/items_set_t4_int_1.png",
+        "rarity": 7
+      },
+      {
+        "name": "Morass Guardian Belt",
+        "image": "assets/images/items/items_set_t4_int_2.png",
+        "rarity": 7
+      },
+      {
+        "name": "Morass Guardian Shoulders",
+        "image": "assets/images/items/items_set_t4_int_3.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Jungle Warden Set",
+    "components": [
+      "Jungle Warden Headdress",
+      "Jungle Warden Shoulders",
+      "Jungle Warden Belt",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_t4_agi_4.png",
+    "componentsData": [
+      {
+        "name": "Jungle Warden Headdress",
+        "image": "assets/images/items/items_set_t4_agi_1.png",
+        "rarity": 7
+      },
+      {
+        "name": "Jungle Warden Shoulders",
+        "image": "assets/images/items/items_set_t4_agi_2.png",
+        "rarity": 7
+      },
+      {
+        "name": "Jungle Warden Belt",
+        "image": "assets/images/items/items_set_t4_agi_3.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Voodoo Might Set",
+    "components": [
+      "Voodoo Might Bracers",
+      "Voodoo Might Shoulders",
+      "Voodoo Might Blade",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_t4_str_4.png",
+    "componentsData": [
+      {
+        "name": "Voodoo Might Bracers",
+        "image": "assets/images/items/items_set_t4_str_1.png",
+        "rarity": 7
+      },
+      {
+        "name": "Voodoo Might Shoulders",
+        "image": "assets/images/items/items_set_t4_str_2.png",
+        "rarity": 7
+      },
+      {
+        "name": "Voodoo Might Blade",
+        "image": "assets/images/items/items_set_t4_str_3.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Cain's Family Legacy",
+    "components": [
+      "Cain's Family Armor",
+      "Titan Blood"
+    ],
+    "image": "assets/images/items/items_cain_set2.png",
+    "componentsData": [
+      {
+        "name": "Cain's Family Armor",
+        "image": "assets/images/items/items_cain_set.png",
+        "rarity": 8
+      },
+      {
+        "name": "Titan Blood",
+        "image": "assets/images/items/items_set_t4_combine_token.png",
+        "rarity": 9
+      }
+    ],
+    "rarity": 9,
+    "rarityEn": "Mythical",
+    "rarityEs": "Mítico",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Cain's Family Armor",
+    "components": [
+      "Cain's Family Amulet",
+      "Cain's Family Treads",
+      "Cain's Family Bible",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_cain_set.png",
+    "componentsData": [
+      {
+        "name": "Cain's Family Amulet",
+        "image": "assets/images/items/items_cain_legendary.png",
+        "rarity": 3
+      },
+      {
+        "name": "Cain's Family Treads",
+        "image": "assets/images/items/items_cain_immo.png",
+        "rarity": 5
+      },
+      {
+        "name": "Cain's Family Bible",
+        "image": "assets/images/items/items_cain_divine.png",
+        "rarity": 8
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 8,
+    "rarityEn": "Divine",
+    "rarityEs": "Divino",
+    "rarityPt": "Comum"
+  },
+  {
+    "result": "Set of the Golden Lion",
+    "components": [
+      "Helm of the Golden Lion",
+      "Shoulders of the Golden Lion",
+      "Gloves of the Golden Lion",
+      "Molten Steel"
+    ],
+    "image": "assets/images/items/items_set_t4_aad_4.png",
+    "componentsData": [
+      {
+        "name": "Helm of the Golden Lion",
+        "image": "assets/images/items/items_set_t4_aad_1.png",
+        "rarity": 7
+      },
+      {
+        "name": "Shoulders of the Golden Lion",
+        "image": "assets/images/items/items_set_t4_aad_2.png",
+        "rarity": 7
+      },
+      {
+        "name": "Gloves of the Golden Lion",
+        "image": "assets/images/items/items_set_t4_aad_3.png",
+        "rarity": 7
+      },
+      {
+        "name": "Molten Steel",
+        "image": "assets/images/items/items_molten_steel.png",
+        "rarity": 0
+      }
+    ],
+    "rarity": 7,
+    "rarityEn": "Ancient Immortal",
+    "rarityEs": "Ancient Immortal",
+    "rarityPt": "Comum"
+  }
+]

@@ -1,0 +1,17 @@
+JSON data mirrors
+================
+assets/json/items.json
+assets/json/crafts.json
+assets/json/runewords.json
+assets/json/path_talents.json
+assets/json/heroes.json
+assets/json/guide_content.json
+assets/json/recipe_aliases.json
+assets/json/translations.json
+
+Language files
+==============
+assets/i18n/en.json
+assets/i18n/es.json
+
+Current runtime still keeps JS data files for maximum compatibility on GitHub Pages, but the JSON mirrors are the new source-friendly layer to keep the project cleaner and prepare a future full migration.
