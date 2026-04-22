@@ -1,0 +1,6 @@
+1. Cambios de contenido -> assets/data
+2. Cambios de comportamiento -> assets/js/render
+3. Cambios globales -> assets/js/core
+4. Cambios visuales -> assets/css
+5. Recipes fuente -> data/recipes/*.txt
+6. Textos guía -> guides/*.txt y assets/data/guide_content.js
