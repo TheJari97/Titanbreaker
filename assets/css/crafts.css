@@ -40,3 +40,8 @@
 .recipe-item .thumb img,.recipe-result .thumb img{width:100%;height:100%;object-fit:cover}
 .recipe-result .thumb{width:96px;height:96px;border-radius:20px;overflow:hidden;border:1px solid var(--line-soft)}
 @media (max-width: 800px){.recipe-layout{grid-template-columns:1fr;}.recipe-arrow{transform:rotate(90deg);justify-self:center}}
+
+.recipe-item.hover-recipe-item,.recipe-result.hover-recipe-result{cursor:help;transition:.16s ease}
+.recipe-item.hover-recipe-item:hover,.recipe-result.hover-recipe-result:hover{border-color:rgba(216,182,113,.34);transform:translateY(-1px)}
+.recipe-components{align-content:start}
+.recipe-divider{border-top:1px dashed rgba(216,182,113,.24)}

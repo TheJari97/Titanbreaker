@@ -21,8 +21,7 @@
       <a class="nav-link" data-page="guide" href="index.html"><span class="nav-icon">🏠</span><span>Guide</span></a>
       <a class="nav-link" data-page="items" href="items.html"><span class="nav-icon">📦</span><span>Items</span></a>
       <a class="nav-link" data-page="runewords" href="runewords.html"><span class="nav-icon">ᚱ</span><span>Runewords</span></a>
-      <a class="nav-link" data-page="crafts" href="crafts.html"><span class="nav-icon">🧪</span><span>Crafts</span></a>
-      <a class="nav-link" data-page="pathtrees" href="pathtrees.html"><span class="nav-icon">🌿</span><span>Path Trees</span></a>
+            <a class="nav-link" data-page="pathtrees" href="pathtrees.html"><span class="nav-icon">🌿</span><span>Path Trees</span></a>
       <a class="nav-link" data-page="heroes" href="heroes.html"><span class="nav-icon">🛡️</span><span>Heroes</span></a>
     </nav>
   </aside>
@@ -35,11 +34,26 @@
         <select class="select" id="langSelect"><option value="en">🇬🇧 English</option><option value="es">🇪🇸 Español</option></select>
       </div>
     </div>
+    <div class="catalog-subnav hidden" id="catalogSubnav">
+      <div class="catalog-tabs">
+        <a class="catalog-tab" data-catalog-page="items" href="items.html">Items</a>
+        <a class="catalog-tab" data-catalog-page="crafts" href="crafts.html">Crafted items</a>
+        <a class="catalog-tab" data-catalog-page="resources" href="resources.html">Resources</a>
+      </div>
+      <div class="catalog-select-wrap">
+        <select class="select" id="catalogSelect">
+          <option value="items">Items</option>
+          <option value="crafts">Crafted items</option>
+          <option value="resources">Resources</option>
+        </select>
+      </div>
+    </div>
     <div id="pageRoot"></div>
   </main>
 </div>
 <div class="tooltip" id="globalTooltip"></div>
 <script src="assets/data/items_data.js"></script>
+<script src="assets/data/act_tags_data.js"></script>
 <script src="assets/data/runewords_data.js"></script>
 <script src="assets/data/talents_data.js"></script>
 <script src="assets/data/crafts_data.js"></script>
@@ -57,6 +71,7 @@
 <script src="assets/js/render/items.js"></script>
 <script src="assets/js/render/crafts.js"></script>
 <script src="assets/js/render/runewords.js"></script>
+<script src="assets/js/render/resources.js"></script>
 <script src="assets/js/render/pathtrees.js"></script>
 <script src="assets/js/render/heroes.js"></script>
 <script src="assets/js/app.js"></script>

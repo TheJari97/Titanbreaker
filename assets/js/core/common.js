@@ -11,6 +11,7 @@ window.CommonUI = (function(){
       guide:{title:guideTitle, showSearch:false, showFilters:false},
       items:{title:'Items', showSearch:true, showFilters:true},
       crafts:{title:AppUtils.t('crafts'), showSearch:true, showFilters:true},
+      resources:{title:AppUtils.lang()==='es' ? 'Recursos' : 'Resources', showSearch:true, showFilters:false},
       runewords:{title:'Runewords', showSearch:false, showFilters:false},
       pathtrees:{title:'Path Trees', showSearch:false, showFilters:false},
       heroes:{title:'Heroes', showSearch:false, showFilters:false}
@@ -24,28 +25,44 @@ window.CommonUI = (function(){
     searchWrap.classList.toggle('hidden', !cfg.showSearch);
     filtersBtn.classList.toggle('hidden', !cfg.showFilters);
     document.querySelectorAll('.nav-link').forEach(a=>{
-      a.classList.toggle('active', a.dataset.page===page);
+      const sidebarTarget = page==='resources' ? 'items' : page;
+      a.classList.toggle('active', a.dataset.page===sidebarTarget);
       const label=a.querySelector('span:last-child');
       if(label){
-        const map={guide:(AppUtils.lang()==='es'?'Guía':'Guide'),items:AppUtils.t('items'),runewords:AppUtils.t('runes'),crafts:AppUtils.t('crafts'),pathtrees:AppUtils.t('paths'),heroes:AppUtils.t('heroes')};
+        const map={guide:(AppUtils.lang()==='es'?'Guía':'Guide'),items:AppUtils.t('items'),resources:(AppUtils.lang()==='es'?'Recursos':'Resources'),runewords:AppUtils.t('runes'),crafts:AppUtils.t('crafts'),pathtrees:AppUtils.t('paths'),heroes:AppUtils.t('heroes')};
         label.textContent=map[a.dataset.page]||label.textContent;
       }
     });
     document.getElementById('langSelect').value=AppUtils.lang();
     const s=document.getElementById('topSearch');
     if(cfg.showSearch){
-      s.value = page==='items' ? (AppState.itemSearch || '') : page==='crafts' ? (AppState.craftSearch || '') : '';
+      s.value = page==='items' ? (AppState.itemSearch || '') : page==='crafts' ? (AppState.craftSearch || '') : page==='resources' ? (AppState.resourceSearch || '') : '';
       s.placeholder=AppUtils.t('search');
     } else {
       s.value='';
     }
     filtersBtn.textContent = (page==='crafts' ? AppUtils.t('craftFilters') : AppUtils.t('showFilters'));
     filtersBtn.classList.toggle('is-open', page==='items' ? AppState.itemsFiltersOpen : page==='crafts' ? AppState.craftsFiltersOpen : false);
+    const catalogNav = document.getElementById('catalogSubnav');
+    if(catalogNav){
+      const show = ['items','crafts','resources'].includes(page);
+      catalogNav.classList.toggle('hidden', !show);
+      catalogNav.querySelectorAll('[data-catalog-page]').forEach(link=>{
+        link.classList.toggle('active', link.dataset.catalogPage===page);
+        const lang = AppUtils.lang();
+        const labels = {items: lang==='es' ? 'Items' : 'Items', crafts: lang==='es' ? 'Crafteos' : 'Crafted items', resources: lang==='es' ? 'Recursos' : 'Resources'};
+        link.textContent = labels[link.dataset.catalogPage] || link.textContent;
+      });
+      const select = document.getElementById('catalogSelect');
+      if(select){ select.value = page; }
+    }
   }
   function setupInteractions(page, onSearch, onToggleFilters){
     document.getElementById('langSelect').onchange=(e)=>setLanguage(e.target.value);
     document.getElementById('topSearch').oninput=(e)=>onSearch && onSearch(e.target.value);
     document.getElementById('filtersBtn').onclick=()=>onToggleFilters && onToggleFilters();
+    const catalogSelect = document.getElementById('catalogSelect');
+    if(catalogSelect){ catalogSelect.onchange=(e)=>{ window.location.href = `${e.target.value}.html`; }; }
   }
   return { bindHover, setupShell, setupInteractions, hideTooltip };
 })();

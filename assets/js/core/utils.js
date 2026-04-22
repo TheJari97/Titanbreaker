@@ -7,6 +7,7 @@ window.AppUtils = (function(){
   const rangeNames = {flexible:{en:'Flexible',es:'Flexible'},melee:{en:'Melee',es:'Melee'},ranged:{en:'Ranged',es:'Rango'}};
   const attrOrder = ['neutral','strength','agility','intelligence'];
   const attrNames = {neutral:{en:'No attribute',es:'Sin atributo'},strength:{en:'Strength',es:'Fuerza'},agility:{en:'Agility',es:'Agilidad'},intelligence:{en:'Intelligence',es:'Inteligencia'}};
+  const actOrder = [1,2,3,4,5,6,7,8,9,10,11,12,13];
   const leadingQualityWords = /^(?:Ancient|Mythical|Divine|Immortal|Legendary|Epic|Rare|Common|Singularity)\s+/i;
   function lang(){ const v=localStorage.getItem('tb_lang') || 'en'; return ['en','es'].includes(v) ? v : 'en'; }
   function t(key){ return (I18N[lang()] && I18N[lang()][key]) || (I18N.en && I18N.en[key]) || key; }
@@ -21,6 +22,7 @@ window.AppUtils = (function(){
   function roleName(value, language){ language = language || lang(); return (roleNames[value] && roleNames[value][language]) || value; }
   function rangeName(value, language){ language = language || lang(); return (rangeNames[value] && rangeNames[value][language]) || value; }
   function attrName(value, language){ language = language || lang(); return (attrNames[value] && attrNames[value][language]) || value; }
+  function actName(value, language){ language = language || lang(); return (language==='es' ? `Acto ${value}` : `Act ${value}`); }
   function searchMatch(text, needle){ const q=String(needle||'').toLowerCase().trim(); if(!q) return true; return String(text||'').toLowerCase().includes(q); }
   function uniq(arr){ return [...new Set(arr)]; }
   function textBlob(item){ return [item.name, item.displayName, item.searchText, ...(item.descEn||[]), ...(item.descEs||[])].filter(Boolean).join(' ').toLowerCase(); }
@@ -55,8 +57,24 @@ window.AppUtils = (function(){
     if (hasInt) return 'intelligence';
     return 'neutral';
   }
+  function itemActs(item){ const acts = Array.isArray(item.acts) ? item.acts.filter(v=>Number.isFinite(v)) : []; return acts.length ? acts : []; }
+  function itemKey(item){ return item ? (item.codename || normalizeKey(displayName(item))) : ''; }
+  function findItemByName(name){
+    const raw = String(name||'').trim();
+    if(!raw) return null;
+    const attempts = [raw, recipeDisplayName(raw), stripBrackets(raw), stripQualityWords(raw), sanitizeName(raw)].filter(Boolean);
+    for(const candidate of attempts){
+      const target = normalizeKey(candidate);
+      const exact = (ITEMS||[]).find(it => normalizeKey(displayName(it))===target || normalizeKey(it.name||'')===target || String(it.codename||'')===candidate);
+      if(exact) return exact;
+    }
+    const target = normalizeKey(raw);
+    return (ITEMS||[]).find(it => normalizeKey(displayName(it)).includes(target) || target.includes(normalizeKey(displayName(it)))) || null;
+  }
+  function maxSkillRank(skill){ const lines = [...(skill.desc?.en||[]), ...(skill.desc?.es||[])]; let max = 1; for(const line of lines){ const m = String(line).match(/Rank\s*(\d+)/i); if(m) max = Math.max(max, Number(m[1])); } return max; }
   function cloneSet(order){ return new Set(order); }
-  function setIsAll(set, order){ return set.size === order.length && order.every(v => set.has(v)); }
-  function matchesFilter(value, set, order){ return setIsAll(set, order) || set.has(value); }
-  return { rarityOrder, rarityNames, roleOrder, roleNames, rangeOrder, rangeNames, attrOrder, attrNames, lang, t, stripBrackets, stripQualityWords, sanitizeName, normalizeKey, descByLang, displayName, recipeDisplayName, rarityName, roleName, rangeName, attrName, searchMatch, itemRoles, itemRange, itemAttribute, cloneSet, setIsAll, matchesFilter };
+  function setIsAll(set, order){ return set && set.size === order.length && order.every(v => set.has(v)); }
+  function filterIsInactive(set){ return !set || set.size === 0; }
+  function matchesFilter(value, set){ return filterIsInactive(set) || set.has(value); }
+  return { rarityOrder, rarityNames, roleOrder, roleNames, rangeOrder, rangeNames, attrOrder, attrNames, actOrder, lang, t, stripBrackets, stripQualityWords, sanitizeName, normalizeKey, descByLang, displayName, recipeDisplayName, rarityName, roleName, rangeName, attrName, actName, searchMatch, itemRoles, itemRange, itemAttribute, itemActs, itemKey, findItemByName, maxSkillRank, cloneSet, setIsAll, filterIsInactive, matchesFilter };
 })();
