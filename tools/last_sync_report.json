@@ -1,0 +1,63 @@
+{
+  "items_total": 961,
+  "items_with_fallback_icon": 8,
+  "fallback_items": [
+    {
+      "codename": "item_crown_of_purity",
+      "name": "[Divine] Crown of Purity"
+    },
+    {
+      "codename": "item_crown_of_wisdom",
+      "name": "[Divine] Crown of Wisdom"
+    },
+    {
+      "codename": "item_divine_frost",
+      "name": "[Divine] Blizzard Shards"
+    },
+    {
+      "codename": "item_divine_phys",
+      "name": "[Divine] Mithril Crescent"
+    },
+    {
+      "codename": "item_grandmaster",
+      "name": "[Divine] Grandmaster Cloak"
+    },
+    {
+      "codename": "item_hearteater",
+      "name": "[Divine] Hearteater, Book of Regret"
+    },
+    {
+      "codename": "item_heavy_bulwark",
+      "name": "[Divine] Heavy Bulwark"
+    },
+    {
+      "codename": "item_solitaires_shroud",
+      "name": "[Divine] Solitaire's Shroud"
+    }
+  ],
+  "talents_total": 198,
+  "talents_with_repo_mastery_icon": 139,
+  "heroes_total": 49,
+  "heroes_with_icon": 47,
+  "heroes_without_icon": [
+    "[Tank] Iron Shaolin",
+    "Demonic Witcher"
+  ],
+  "hero_subgroups": {
+    "crusader": 1,
+    "deathbringer": 2,
+    "wizard": 3,
+    "ranger": 4,
+    "healer": 5,
+    "tank": 6,
+    "temple": 10,
+    "guardian": 4,
+    "brawler": 2,
+    "witcher": 3,
+    "shadowstalker": 3,
+    "shaolin": 1,
+    "voodoo": 3,
+    "demonslayer": 1,
+    "cleric": 1
+  }
+}

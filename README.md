@@ -19,3 +19,7 @@ Edita `assets/css/` solo si quieres cambiar diseño.
 
 ## JSON layer
 This project now includes JSON mirrors in `assets/json/` and language packs in `assets/i18n/` to keep content easier to maintain while preserving the current static runtime.
+
+
+## Auto sync helper
+This package now includes `tools/update_from_catzee.py`, `tools/update_data.bat` and a cached snapshot under `tools/cache/` to refresh items, talents and heroes from the Catzee public repository.

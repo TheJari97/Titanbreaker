@@ -41,7 +41,8 @@ window.CommonUI = (function(){
       resources: { title: AppUtils.t("resources"), showSearch: true, showFilters: true },
       runewords: { title: AppUtils.t("runes"), showSearch: false, showFilters: false },
       pathtrees: { title: AppUtils.t("paths"), showSearch: false, showFilters: false },
-      heroes: { title: AppUtils.t("heroes"), showSearch: false, showFilters: false }
+      heroes: { title: AppUtils.t("heroes"), showSearch: true, showFilters: false },
+      artifacts: { title: AppUtils.t("artifacts"), showSearch: true, showFilters: false }
     }[page];
   }
 
@@ -78,7 +79,8 @@ window.CommonUI = (function(){
           runewords: AppUtils.t("runes"),
           crafts: AppUtils.t("crafts"),
           pathtrees: AppUtils.t("paths"),
-          heroes: AppUtils.t("heroes")
+          heroes: AppUtils.t("heroes"),
+          artifacts: AppUtils.t("artifacts")
         };
         label.textContent = map[a.dataset.page] || label.textContent;
       }
@@ -86,8 +88,8 @@ window.CommonUI = (function(){
 
     const search = document.getElementById("topSearch");
     if(cfg.showSearch){
-      search.value = page === "items" ? (AppState.itemSearch || "") : page === "crafts" ? (AppState.craftSearch || "") : page === "resources" ? (AppState.resourceSearch || "") : "";
-      search.placeholder = AppUtils.t("search");
+      search.value = page === "items" ? (AppState.itemSearch || "") : page === "crafts" ? (AppState.craftSearch || "") : page === "resources" ? (AppState.resourceSearch || "") : page === "heroes" ? (AppState.heroSearch || "") : page === "artifacts" ? (AppState.artifactSearch || "") : "";
+      search.placeholder = page === "heroes" ? AppUtils.t("searchHero") : page === "artifacts" ? AppUtils.t("searchArtifact") : AppUtils.t("search");
     } else {
       search.value = "";
     }

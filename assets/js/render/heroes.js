@@ -16,25 +16,75 @@ window.RenderHeroes = (function(){
   function heroIcon(hero){ return hero.icon ? `<img src="${hero.icon}" alt="${hero.name}">` : hero.iconText; }
 
 
+  function cleanHeroName(name){
+    return String(name||'').replace(/_/g,' ').replace(/^\s*\[[^\]]+\]\s*/,'').replace(/\([^)]*\)/g,'').replace(/\s+/g,' ').trim();
+  }
+  function heroDisplayName(heroOrName){
+    const raw = typeof heroOrName === 'string' ? heroOrName : (heroOrName?.name || '');
+    return cleanHeroName(raw);
+  }
+  function heroSearchText(hero){
+    return [heroDisplayName(hero), hero?.name || ''].join(' ').toLowerCase();
+  }
   function heroCombatType(heroName){
-    return /Ranger|Wizard/i.test(heroName) ? 'ranged' : 'melee';
+    const name = heroDisplayName(heroName);
+    return /Ranger|Wizard|Voodoo/i.test(name) ? 'ranged' : 'melee';
   }
   function heroClassTag(heroName){
-    if(/Ranger/i.test(heroName)) return 'Ranger';
-    if(/Wizard/i.test(heroName)) return 'Wizard';
-    if(/Crusader/i.test(heroName)) return 'Crusader';
-    if(/Deathbringer/i.test(heroName)) return 'Deathbringer';
+    const name = heroDisplayName(heroName);
+    if(/Ranger/i.test(name)) return 'Ranger';
+    if(/Wizard/i.test(name)) return 'Wizard';
+    if(/Crusader/i.test(name)) return 'Crusader';
+    if(/Deathbringer/i.test(name)) return 'Deathbringer';
+    if(/Cleric/i.test(name)) return 'Cleric';
+    if(/Voodoo/i.test(name)) return 'Voodoo';
+    if(/Brawler/i.test(name)) return 'Brawler';
+    if(/Demonslayer/i.test(name)) return 'Demonslayer';
     return 'Hero';
   }
   function heroRoleTag(heroName){
-    if(/Ranger/i.test(heroName)) return 'assassin';
-    if(/Wizard/i.test(heroName)) return 'mage';
-    if(/Crusader/i.test(heroName)) return 'fighter';
-    if(/Deathbringer/i.test(heroName)) return 'tank';
+    const name = heroDisplayName(heroName);
+    if(/Cleric|Voodoo|Guardian/i.test(name)) return 'healer';
+    if(/Ranger|Shadowstalker|Demonslayer/i.test(name)) return 'assassin';
+    if(/Wizard|Witcher/i.test(name)) return 'mage';
+    if(/Deathbringer|Tank|Shaolin|Brawler/i.test(name)) return 'tank';
+    if(/Crusader/i.test(name)) return 'fighter';
     return 'general';
   }
   function heroAttrTag(attr){
     return attr === 'strength' ? 'strength' : attr === 'agility' ? 'agility' : 'intelligence';
+  }
+  function heroMatchesSearch(hero){
+    const query = String(AppState.heroSearch || '').trim().toLowerCase();
+    if(!query) return true;
+    return heroSearchText(hero).includes(query);
+  }
+  function heroTooltip(hero){
+    if(!hero) return '';
+    const role = heroRoleTag(hero.name);
+    const displayName = heroDisplayName(hero);
+    return `<div class="tooltip-head"><div class="hero-icon" style="width:58px;height:58px;border-radius:16px">${heroIcon(hero)}</div><div><div class="tooltip-title">${displayName}</div><div class="tooltip-sub">${AppUtils.attrName(heroAttrTag(hero.attr))}</div></div></div><div class="tooltip-body"><div class="tooltip-badge-row"><span class="mini-badge filter-badge filter-range">${AppUtils.rangeName(heroCombatType(hero.name))}</span><span class="mini-badge vivid-badge">${heroClassTag(hero.name)}</span><span class="mini-badge role-badge role-${role}">${AppUtils.roleName(role)}</span>${hero.status==='coming'?`<span class="mini-badge filter-badge">${AppUtils.t('comingSoon')}</span>`:''}</div></div>`;
+  }
+  function uniqueHeroesByDisplayName(list){
+    const ranked = [...list].sort((a,b)=>{
+      const aSimple = a.name === heroDisplayName(a) ? 1 : 0;
+      const bSimple = b.name === heroDisplayName(b) ? 1 : 0;
+      if(aSimple !== bSimple) return bSimple - aSimple;
+      const aReady = a.status === 'ready' ? 1 : 0;
+      const bReady = b.status === 'ready' ? 1 : 0;
+      if(aReady !== bReady) return bReady - aReady;
+      const aIcon = a.icon ? 1 : 0;
+      const bIcon = b.icon ? 1 : 0;
+      if(aIcon !== bIcon) return bIcon - aIcon;
+      return heroDisplayName(a).localeCompare(heroDisplayName(b));
+    });
+    const seen = new Set();
+    return ranked.filter(hero => {
+      const key = `${hero.attr}__${heroDisplayName(hero).toLowerCase()}`;
+      if(seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    }).sort((a,b)=>heroDisplayName(a).localeCompare(heroDisplayName(b)));
   }
   function parseStatLine(line){
     const clean = String(line||'').replace(/<[^>]+>/g,'').trim();
@@ -314,13 +364,30 @@ window.RenderHeroes = (function(){
     ];
     return `<section class="hero-panel artifact-panel-wrap"><div class="summary-title">${AppUtils.t('artifacts')}</div><div class="artifact-info-card"><div class="summary-title">${AppUtils.t('artifactInfo')}</div>${ARTIFACT_INFO.intro.map(line=>`<p>${line}</p>`).join('')}</div><div class="artifact-grid">${artifactSlots().map(slot=>`<article class="artifact-slot-card"><div class="artifact-slot-head">[${slot.label}]</div><div class="artifact-slot-body"><div class="artifact-slot-placeholder">${AppUtils.t('artifactSlotEmpty')}</div></div></article>`).join('')}</div><div class="artifact-traits-wrap">${traitGroups.map(([key,title])=>`<section class="artifact-trait-group"><div class="summary-title">${title}</div><div class="artifact-trait-list">${(ARTIFACT_TRAITS[key]||[]).map(([name,desc])=>`<article class="artifact-trait-card"><div class="artifact-trait-name">${name}</div><div class="artifact-trait-desc">${desc}</div></article>`).join('')}</div></section>`).join('')}</div></section>`;
   }
+  function uniqueHeroesByName(list){
+    const seen=new Set();
+    return (list||[]).filter(hero=>{
+      const key=String(hero?.name||'').trim().toLowerCase();
+      if(!key || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }
+
   function render(){
     const root=document.getElementById('pageRoot');
-    const groups={intelligence:[], agility:[], strength:[]}; HEROES.forEach(h=>groups[h.attr].push(h));
-    const panels=['intelligence','agility','strength'].map(attr=>`<section class="attr-panel attr-panel-${attr}"><div class="attr-head"><span class="attr-orb orb-${attr==='intelligence'?'int':attr==='agility'?'agi':'str'}"></span>${AppUtils.t(attr)}</div><div class="hero-list">${groups[attr].map(h=>`<div class="hero-chip hero-chip-${attr} ${AppState.selectedHero===h.name?'active':''}" data-hero="${h.name.replace(/"/g,'&quot;')}"><div class="hero-icon">${heroIcon(h)}</div><div><div class="name" style="font-weight:900">${h.name}</div><div class="hero-chip-tags"><span class="mini-badge filter-badge filter-range">${AppUtils.rangeName(heroCombatType(h.name))}</span><span class="mini-badge filter-badge filter-attr">${AppUtils.attrName(heroAttrTag(h.attr))}</span><span class="mini-badge vivid-badge">${heroClassTag(h.name)}</span></div><div class="tooltip-sub">${h.status==='coming'?AppUtils.t('comingSoon'):''}</div></div><div class="tooltip-sub">${AppState.selectedHero===h.name?AppUtils.t('selected'):''}</div></div>`).join('')}</div></section>`).join('');
-    let detail=''; const hero=AppState.selectedHero ? HERO_DETAILS[AppState.selectedHero] : null;
+    const filteredHeroes = uniqueHeroesByDisplayName(HEROES.filter(heroMatchesSearch));
+    const groups={intelligence:[], agility:[], strength:[]};
+    filteredHeroes.forEach(h=>groups[h.attr].push(h));
+    const panels=['intelligence','agility','strength'].map(attr=>{
+      const rows = groups[attr];
+      const empty = !rows.length ? `<div class="hero-subgroup-empty">${l('Sin resultados en esta categoría','No matches in this category')}</div>` : '';
+      return `<section class="attr-panel attr-panel-${attr}"><div class="attr-head"><span class="attr-orb orb-${attr==='intelligence'?'int':attr==='agility'?'agi':'str'}"></span>${AppUtils.t(attr)}<span class="mini-badge filter-badge">${rows.length}</span></div><div class="hero-list hero-list-icons">${rows.map(h=>`<button class="hero-chip hero-chip-${attr} hero-chip-icon hover-hero-chip ${AppState.selectedHero===h.name?'active':''}" data-hero="${h.name.replace(/"/g,'&quot;')}" aria-label="${heroDisplayName(h)}"><div class="hero-icon">${heroIcon(h)}</div>${h.status==='coming'?`<span class="hero-coming-dot" title="${AppUtils.t('comingSoon')}"></span>`:''}</button>`).join('')}</div>${empty}</section>`;
+    }).join('');
+    const canShowSelected = !AppState.heroSearch || HEROES.filter(heroMatchesSearch).some(h=>h.name===AppState.selectedHero);
+    let detail=''; const hero=AppState.selectedHero && canShowSelected ? HERO_DETAILS[AppState.selectedHero] : null;
     if(hero){
-      const heroMeta = HEROES.find(h=>h.name===hero.name);
+      const heroMeta = HEROES.find(h=>h.name===hero.name) || {name: hero.name, attr:'intelligence'};
       const heroAttr = heroMeta?.attr || 'intelligence';
       const tabs = heroTabsMarkup();
       let panelHtml='';
@@ -329,9 +396,10 @@ window.RenderHeroes = (function(){
       else if(AppState.heroView==='talents') panelHtml = talentsPanel(hero);
       else if(AppState.heroView==='equipment') panelHtml = equipmentPanel(hero.name);
       else panelHtml = artifactsPanel(hero.name);
-      detail = `<div class="hero-detail hero-detail-${heroAttr}"><div class="hero-detail-frame"><div class="hero-detail-head"><div class="hero-icon">${heroIcon(heroMeta)}</div><div><div style="font-size:28px;font-weight:900">${hero.name}</div><div class="tooltip-sub hero-subline">${(hero.subtitle && (hero.subtitle[AppUtils.lang()]||hero.subtitle.en)) || ''}</div><div class="tooltip-badge-row hero-detail-tags"><span class="mini-badge filter-badge filter-range">${AppUtils.rangeName(heroCombatType(hero.name))}</span><span class="mini-badge filter-badge filter-attr">${AppUtils.attrName(heroAttrTag(heroAttr))}</span><span class="mini-badge vivid-badge">${heroClassTag(hero.name)}</span><span class="mini-badge role-badge role-${heroRoleTag(hero.name)}">${AppUtils.roleName(heroRoleTag(hero.name))}</span></div></div><div class="hero-head-actions"><button class="btn hero-reset-btn" id="resetBuildBtn">${AppUtils.t('resetBuild')}</button></div></div>${tabs}${panelHtml}</div></div>`;
+      detail = `<div class="hero-detail hero-detail-${heroAttr}"><div class="hero-detail-frame"><div class="hero-detail-head"><div class="hero-icon">${heroIcon(heroMeta)}</div><div><div style="font-size:28px;font-weight:900">${heroDisplayName(hero.name)}</div><div class="tooltip-sub hero-subline">${(hero.subtitle && (hero.subtitle[AppUtils.lang()]||hero.subtitle.en)) || ''}</div><div class="tooltip-badge-row hero-detail-tags"><span class="mini-badge filter-badge filter-range">${AppUtils.rangeName(heroCombatType(hero.name))}</span><span class="mini-badge filter-badge filter-attr">${AppUtils.attrName(heroAttrTag(heroAttr))}</span><span class="mini-badge vivid-badge">${heroClassTag(hero.name)}</span><span class="mini-badge role-badge role-${heroRoleTag(hero.name)}">${AppUtils.roleName(heroRoleTag(hero.name))}</span></div></div><div class="hero-head-actions"><button class="btn hero-reset-btn" id="resetBuildBtn">${AppUtils.t('resetBuild')}</button></div></div>${tabs}${panelHtml}</div></div>`;
     } else {
-      detail = `<div class="hero-empty-state section-card"><div class="catalog-label">${l('Configura tu héroe','Configure your hero')}</div><h2>${l('Selecciona un héroe listo para empezar','Select a ready hero to begin')}</h2><p>${l('Aquí podrás revisar su información general, planear habilidades, elegir talentos y preparar su equipamiento de 6 items.','Here you can review general information, plan abilities, choose talents and prepare a 6-item equipment setup.')}</p></div>`;
+      const hasQuery = Boolean(String(AppState.heroSearch || '').trim());
+      detail = `<div class="hero-empty-state section-card"><div class="catalog-label">${hasQuery ? l('Búsqueda de héroes','Hero search') : l('Configura tu héroe','Configure your hero')}</div><h2>${hasQuery ? l('No se encontraron héroes con ese nombre','No heroes matched that name') : l('Selecciona un héroe listo para empezar','Select a ready hero to begin')}</h2><p>${hasQuery ? l('Prueba con otro nombre o borra la búsqueda para ver toda la lista.','Try another name or clear the search to see the full roster.') : l('Aquí podrás revisar su información general, planear habilidades, elegir talentos y preparar su equipamiento de 6 items.','Here you can review general information, plan abilities, choose talents and prepare a 6-item equipment setup.')}</p></div>`;
     }
     root.innerHTML = `<div class="hero-groups">${panels}</div>${detail}`;
     root.querySelectorAll('.hero-chip').forEach(el=>el.onclick=()=>selectHero(el.dataset.hero));
@@ -351,6 +419,8 @@ window.RenderHeroes = (function(){
     CommonUI.bindHover('.hover-skill', el=>skillTooltip(el.dataset.hero, Number(el.dataset.skill)));
     CommonUI.bindHover('.hover-equip-option', el=>{ const item=findItemByKey(el.dataset.equipItem); return item && RenderItems.tooltipForItem ? RenderItems.tooltipForItem(item) : ''; });
     CommonUI.bindHover('.hover-equip-slot', el=>{ if(!el.dataset.itemKey) return ''; const item=findItemByKey(el.dataset.itemKey); return item && RenderItems.tooltipForItem ? RenderItems.tooltipForItem(item) : ''; });
+    CommonUI.bindHover('.hover-hero-chip', el=>{ const hero = HEROES.find(h=>h.name===el.dataset.hero); return heroTooltip(hero); });
   }
-  return { render };
+  function setSearch(value){ AppState.heroSearch = value || ''; render(); }
+  return { render, setSearch };
 })();

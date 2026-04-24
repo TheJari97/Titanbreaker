@@ -7,6 +7,7 @@
     else if(page==='items') RenderItems.render();
     else if(page==='crafts') RenderCrafts.render();
     else if(page==='resources') RenderResources.render();
+    else if(page==='artifacts') RenderArtifacts.render();
     else if(page==='runewords') RenderRunewords();
     else if(page==='pathtrees') RenderPaths.render();
     else if(page==='heroes') RenderHeroes.render();
@@ -18,6 +19,8 @@
       if(page==='items') RenderItems.setSearch(value);
       if(page==='crafts') RenderCrafts.setSearch(value);
       if(page==='resources') RenderResources.setSearch(value);
+      if(page==='heroes') RenderHeroes.setSearch(value);
+      if(page==='artifacts') RenderArtifacts.setSearch(value);
     }, ()=>{ if(page==='items') RenderItems.toggleFilters(); if(page==='crafts') RenderCrafts.toggleFilters(); if(page==='resources') RenderResources.toggleFilters(); });
     renderCurrent();
     window.addEventListener('tb:langchange', renderCurrent);

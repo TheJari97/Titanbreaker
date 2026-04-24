@@ -17,6 +17,8 @@ window.AppState = {
   itemSearch:'',
   craftSearch:'',
   resourceSearch:'',
+  heroSearch:'',
+  artifactSearch:'',
   itemsFiltersOpen:false,
   craftsFiltersOpen:false,
   resourcesFiltersOpen:false,

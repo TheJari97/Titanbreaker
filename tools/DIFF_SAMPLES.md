@@ -1,0 +1,80 @@
+# Sample differences
+
+## Item examples
+- `item_neutral_1`
+  - Description updated from repository values/placeholders.
+- `item_neutral_4`
+  - Description updated from repository values/placeholders.
+- `item_neutral_8`
+  - Description updated from repository values/placeholders.
+- `item_neutral_10`
+  - Description updated from repository values/placeholders.
+- `item_neutral_11`
+  - Description updated from repository values/placeholders.
+- `item_neutral_12`
+  - Description updated from repository values/placeholders.
+- `item_neutral_13`
+  - Description updated from repository values/placeholders.
+- `item_neutral_17`
+  - Description updated from repository values/placeholders.
+- `item_neutral_18`
+  - Description updated from repository values/placeholders.
+- `item_neutral_20`
+  - Description updated from repository values/placeholders.
+- `item_neutral_21`
+  - Description updated from repository values/placeholders.
+- `item_neutral_23`
+  - Description updated from repository values/placeholders.
+- `item_neutral_24`
+  - Description updated from repository values/placeholders.
+- `item_neutral_27`
+  - Description updated from repository values/placeholders.
+- `item_neutral_29`
+  - Description updated from repository values/placeholders.
+- `item_crit_myth`
+  - Description updated from repository values/placeholders.
+- `item_myth_def`
+  - Description updated from repository values/placeholders.
+- `item_myth_str`
+  - Description updated from repository values/placeholders.
+- `item_myth_agi`
+  - Description updated from repository values/placeholders.
+- `item_myth_aa`
+  - Description updated from repository values/placeholders.
+- `item_myth_aad`
+  - Description updated from repository values/placeholders.
+- `item_myth_sp`
+  - Description updated from repository values/placeholders.
+- `item_set_t4_aad_5`
+  - Description updated from repository values/placeholders.
+- `item_cain_set2`
+  - Description updated from repository values/placeholders.
+- `item_set_t4_new_5`
+  - Description updated from repository values/placeholders.
+
+## Talent examples
+- Talent 7: description updated
+- Talent 8: description updated
+- Talent 10: description updated
+- Talent 14: description updated
+- Talent 19: description updated
+- Talent 24: description updated
+- Talent 26: description updated
+- Talent 29: description updated
+- Talent 30: description updated
+- Talent 36: description updated
+- Talent 37: description updated
+- Talent 42: description updated
+- Talent 45: description updated
+- Talent 46: description updated
+- Talent 48: `Hunt the Weak` -> `Impale`
+- Talent 50: description updated
+- Talent 56: description updated
+- Talent 58: description updated
+- Talent 59: description updated
+- Talent 60: description updated
+- Talent 62: description updated
+- Talent 74: description updated
+- Talent 75: description updated
+- Talent 79: description updated
+- Talent 83: description updated

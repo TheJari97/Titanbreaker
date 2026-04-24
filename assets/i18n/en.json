@@ -128,5 +128,6 @@
   "equipmentModalSearch": "Search item by name...",
   "equipmentModalEmpty": "Type an item name to see results.",
   "equipmentModalNoResults": "No matching items were found.",
-  "equipmentSelectedSlot": "Selected slot"
+  "equipmentSelectedSlot": "Selected slot",
+  "searchHero": "Search hero by name..."
 }

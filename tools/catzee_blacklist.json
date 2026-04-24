@@ -1,0 +1,11 @@
+{
+  "exclude_repo_only_items": [
+    "item_bag_of_gold",
+    "item_treasure_chest"
+  ],
+  "notes": [
+    "The updater keeps all current-site items that are not present in Catzee custom KV, because many of them are likely vanilla Dota overrides or older still-valid entries.",
+    "Repo-only items with no local image fall back to assets/images/items/items_recipe.png.",
+    "Temple hero variants with only one real skill are kept, but marked as status=coming."
+  ]
+}
